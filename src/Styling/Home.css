@@ -1,4 +1,10 @@
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Parisienne&display=swap');
+font-family: 'Fleur De Leah', cursive;
+font-family: 'Parisienne', cursive;
 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Parisienne&display=swap');
 
 
 
@@ -9,4 +15,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 47.5rem;
+}
+
+
+.welcome-text{
+    color: #305376;
+    font-family: 'Fleur De Leah', cursive;
+
+}
+
+.spantext{
+    color: #fc0199;
+    font-family: 'Parisienne', cursive;
+
 }
