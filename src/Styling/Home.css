@@ -30,10 +30,11 @@ font-family: 'Parisienne', cursive;
 /* Welcome Section */
 
 .welcome-section{
-    background-image: linear-gradient(rgb(120, 116, 116)) url("../Assets/Layer1.png");
+    background-image: linear-gradient(rgb(255, 251, 251), rgba(173, 171, 171, 0.5)), url("../Assets/Layer1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    height: 47.5rem;
+
 }
 
 .welcome-par {
@@ -44,5 +45,19 @@ font-family: 'Parisienne', cursive;
 .spantext{
     color: #fc0199;
     font-family: 'Parisienne', cursive;
+
+}
+
+.flowercol{
+    background-image: url('../Assets/Layer11.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 47.5rem;
+}
+
+.mapcol{
+    background-image: url('../Assets/Layer41.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 
 }

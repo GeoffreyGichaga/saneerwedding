@@ -7,8 +7,8 @@ import layer6 from '../Assets/Layer6.png'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-import layer11 from '../Assets/Layer11.png'
-// import layer1 from '../Assets/Layer1.png'
+import layer9 from '../Assets/Layer9.png'
+import layer39 from '../Assets/Layer39.png'
 
 
 
@@ -32,8 +32,8 @@ const Home = () => {
     <Container fluid className='welcome-section'>
         <h2 className='welcome-text mt-4 text-center'>Welcome</h2>
         <Row>
-            <Col sm={12} md={6} lg={2}>
-                <img src={layer11} alt='flower'/>
+            <Col sm={12} md={6} lg={3} className='flowercol'>
+                <img src={layer9} alt='flower'/>
             </Col>
             <Col sm={12} md={6} lg={6}>
             <p className='welcome-par text-center'>Dear family and friends, the time has come <br/> To <span className='spantext'> raise the roof </span>  and have some <span className='spantext'> fun </span><br/>
@@ -41,7 +41,9 @@ const Home = () => {
             Lose yourself in wild romance <br/> We’re going to <br/> <span className='spantext'> Party, Love, Fiesta, Forever </span> <br/> Join us in Los Cabos!
             </p>
             </Col>
-            <Col sm={12} md={6} lg={4}>Hello</Col>
+            <Col sm={12} md={6} lg={3} className='mapcol'>
+                <img className='w-100' src={layer39} alt='layer39'/>
+            </Col>
         </Row>
     </Container>
     
