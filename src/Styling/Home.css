@@ -5,5 +5,8 @@
 
 
 #firstblock{
-    background-image: ;
+    background-image: url("../Assets/Layer2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 47.5rem;
 }

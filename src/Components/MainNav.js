@@ -9,8 +9,8 @@ import '../Styling/Nav.css'
 
 const MainNav = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light" id='mainbar'>
-      <Container>
+    <Navbar collapseOnSelect expand="lg"   id='mainbar'>
+      <Container fluid>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
