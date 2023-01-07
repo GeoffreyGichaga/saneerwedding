@@ -22,7 +22,7 @@ const Home = () => {
         <Logo/>
         {/* Couple Image */}
         <div className='d-flex mt-5 justify-content-end'>
-            <img src={layer6} alt='couple'/>
+            <img className='couplepic' src={layer6} alt='couple'/>
         </div>
 
 

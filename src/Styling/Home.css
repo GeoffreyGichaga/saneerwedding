@@ -14,7 +14,7 @@ font-family: 'Parisienne', cursive;
     background-image: url("../Assets/Layer2.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 47.5rem;
+    height: 100%;
 }
 
 
@@ -23,6 +23,10 @@ font-family: 'Parisienne', cursive;
     font-family: 'Fleur De Leah', cursive;
     font-size: 70pt;
 
+}
+
+.couplepic{
+    margin-top: 10%;
 }
 
 
