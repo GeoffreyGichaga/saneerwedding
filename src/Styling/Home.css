@@ -21,9 +21,26 @@ font-family: 'Parisienne', cursive;
 .welcome-text{
     color: #305376;
     font-family: 'Fleur De Leah', cursive;
+    font-size: 70pt;
 
 }
 
+
+
+/* Welcome Section */
+
+.welcome-section{
+    background-image: linear-gradient(rgb(120, 116, 116)) url("../Assets/Layer1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.welcome-par {
+    font-size: 18pt;
+    color: #305376;
+
+}
 .spantext{
     color: #fc0199;
     font-family: 'Parisienne', cursive;
