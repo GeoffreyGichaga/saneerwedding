@@ -52,6 +52,8 @@ font-family: 'Parisienne', cursive;
 .welcome-par {
     font-size: 18pt;
     color: #305376;
+    font-family: "Butler-m";
+
 
 }
 .spantext{
@@ -78,7 +80,10 @@ font-family: 'Parisienne', cursive;
 
 
 /* Story Section  */
+.story-row{
+    font-family: "Butler-m";
 
+}
 .story-title{
     font-family: "JohnDavid";
 }
@@ -92,10 +97,14 @@ font-family: 'Parisienne', cursive;
 
 .storyline{
     color: #305376;
+    font-family: "Butler-m";
+
 }
 
 .longstory{
     color: #305376;
+    font-family: "Butler-m";
+
 }
 
 .couple3{
@@ -124,7 +133,11 @@ font-family: 'Parisienne', cursive;
 
 
 /* Event Details*/
+.timeline{
+    font-family: "Butler-m";
 
+
+}
 .details-title{
     font-family: "JohnDavid";
     color: #305376;
@@ -132,6 +145,8 @@ font-family: 'Parisienne', cursive;
 
 .details-par {
     color: #305376;
+    font-family: "Butler-m";
+
 
 }
 
@@ -143,7 +158,7 @@ font-family: 'Parisienne', cursive;
 
 .timeline-titles{
     color: #305376;
-    font-weight: 15pt;
+    font-weight: 20pt;
 
 }
 
@@ -170,6 +185,8 @@ font-family: 'Parisienne', cursive;
 
 .explore-par{
     color: #305376;
+    font-family: "Butler-m";
+
 
 }
 
@@ -180,6 +197,23 @@ font-family: 'Parisienne', cursive;
 
 
 }
+.activities-title {
+    color: #305376;
+    font-family: "Butler-m";
+
+
+}
+
+.activities-section {
+    font-family: "Butler-m";
+
+
+}
+
+
+
+
+
 
 
 /* Things todo */
@@ -189,6 +223,7 @@ font-family: 'Parisienne', cursive;
     background-size: contain;
     background-position: left;
     color: #305376;
+    font-family: "Butler-m";
 
 }
 
@@ -198,6 +233,8 @@ font-family: 'Parisienne', cursive;
 /* Transport Secrtion */
 .transport{
     color: #305376;
+    font-family: "Butler-m";
+
 
 
 }
@@ -207,6 +244,13 @@ font-family: 'Parisienne', cursive;
 
 
 
+}
+
+#book-btn{
+    background-color: #7ddbdf;
+    color: #305376;
+
+    border: none;
 }
 
 
@@ -219,5 +263,7 @@ font-family: 'Parisienne', cursive;
 }
 .question{
     color: #305376;
+    font-family: "Butler-m";
+
 
 }

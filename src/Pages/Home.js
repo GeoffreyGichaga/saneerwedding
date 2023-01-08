@@ -135,7 +135,7 @@ const Home = () => {
         
 
         {/* Story Continuation */}
-        <Row>
+        <Row className='story-row'>
             <Col className='p-5'>
             <p className='longstory '>
 
@@ -187,7 +187,7 @@ const Home = () => {
     <h1 className='details-title text-center'>Event Details</h1>
     <p className='details-par text-center'>As the event detais will be sent shortly ,Here is a small preview of what is to come</p>
 
-    <Row className='p-5'>
+    <Row className='timeline p-5'>
         <Col sm={12} md={12} lg={4}>
         <h2 className='dates text-center'>APRIL 13</h2>
         <div className='d-flex justify-content-center mt-5 mb-5'>
@@ -227,7 +227,7 @@ const Home = () => {
     {/* Explore */}
     <Container fluid>
         <h1 className='explore-title text-center mt-4'>Exploring Los Cabos</h1>
-        <Row>
+        <Row className='mt-5'>
             <p className='explore-par text-center'>
             Conveniently located only 25 minutes from the Los Cabos International Airport, the Hotel is perfectly <br/>
             situated in the heart of San Jose del Cabo. You can enjoy the traditional, authentic Mexican<br/>
@@ -238,12 +238,14 @@ const Home = () => {
             Activities at the Hotel
             </p>
         </Row>
-        <h3 className='text-center'>ACTIVITIES AT THE HOTEL</h3>
+
+        {/* Activities */}
+        <h3 className='activities-title text-center mt-4'>ACTIVITIES AT THE HOTEL</h3>
 
 
-        <Row>
-            <Col sm={12} md={6} lg={3}>
-                <img src={layer48} alt='grass'/>
+        <Row className='activities-section ps-5'>
+            <Col sm={12} md={6} lg={2}>
+                <img className='w-100' src={layer48} alt='grass'/>
             </Col>
 
 
@@ -259,7 +261,7 @@ const Home = () => {
         </Row>
 
 
-        <Row>
+        <Row className='activities-section'>
             <Col sm={12} md={6} lg={9}>
                 <p className='activities-par text-end'>Jasha Spa</p>
 
@@ -274,15 +276,15 @@ const Home = () => {
             </Col>
 
             <Col sm={12} md={6} lg={3}>
-                <img src={layer50} alt='pot'/>
+                <img className='w-75' src={layer50} alt='pot'/>
             </Col>
         </Row>
 
 
 
-        <Row>
+        <Row className='activities-section ps-5'>
             <Col sm={12} md={6} lg={2}>
-            <img src={layer51} alt='rainbow'/>
+            <img className='w-75' src={layer51} alt='rainbow'/>
             </Col>
 
             <Col sm={12} md={6} lg={9}>
@@ -300,7 +302,7 @@ const Home = () => {
 
         {/* Things to do  */}
 
-        <Row className='thingstodo '>
+        <Row className='thingstodo mt-5 '>
             <h2 className='text-center'>THINGS TO DO</h2>
             <p className='text-center'>Check with your concierge on reliable tour companies and bookings</p>
             <Col sm={12} md={6} lg={3}>
@@ -381,7 +383,7 @@ const Home = () => {
             details to book your transport service directly with them.
         </p>
         <div className='d-flex justify-content-center'>
-            <Button>Book Airport Transfer</Button>
+            <Button id="book-btn">Book Airport Transfer</Button>
 
         </div>
     </Container>
