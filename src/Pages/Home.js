@@ -6,6 +6,9 @@ import Logo from '../Components/Logo'
 import layer6 from '../Assets/Layer6.png'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
+
+
 
 import layer9 from '../Assets/Layer9.png'
 import layer39 from '../Assets/Layer39.png'
@@ -213,8 +216,8 @@ const Home = () => {
 
 
     {/* Explore */}
-    <Container>
-        <h1 className='explore-title'>Exploring Los Cabos</h1>
+    <Container fluid>
+        <h1 className='explore-title text-center mt-4'>Exploring Los Cabos</h1>
         <Row>
             <p className='explore-par text-center'>
             Conveniently located only 25 minutes from the Los Cabos International Airport, the Hotel is perfectly <br/>
@@ -236,8 +239,8 @@ const Home = () => {
 
 
             <Col sm={12} md={6} lg={9}>
-            <p>A Masterpiece in 27 Holes</p>
-            <p>
+            <p className='activities-par'>A Masterpiece in 27 Holes</p>
+            <p className='activities-par'>
                 One of the most unique golf experiences in all of Los Cabos with stunning views of the Sea of <br/>
                 Cortez from 70% of the golf course. With two comfort stations on each 9 serving food and <br/>
                 beverages, you are never more than a couple of holes away from your next taco or margarita.<br/>
@@ -249,16 +252,16 @@ const Home = () => {
 
         <Row>
             <Col sm={12} md={6} lg={9}>
-                <p className='text-end'>Jasha Spa</p>
+                <p className='activities-par text-end'>Jasha Spa</p>
 
-                <p className='text-end'>Jasha Spa, the hotel’s resort spa in San Jose del Cabo and the most luxurious in Los Cabos,<br/>
+                <p className='activities-par text-end'>Jasha Spa, the hotel’s resort spa in San Jose del Cabo and the most luxurious in Los Cabos,<br/>
                 offers many blissful services daily to take your increase your leisure. Services include hair and<br/>
                 scalp treatments, massages, indoor pools, jacuzzis and more.<br/>
                 Please contact the Spa directly for your appointments at Extension #2061.<br/>
                 Wedding rate offers you 20% discount</p>
 
-                <p className='text-end'>Jasha Beauty Salon</p>
-                <p className='text-end'>We'll update the hair & makeup information as we get closer.</p>
+                <p className='activities-par text-end'>Jasha Beauty Salon</p>
+                <p className='activities-par text-end'>We'll update the hair & makeup information as we get closer.</p>
             </Col>
 
             <Col sm={12} md={6} lg={3}>
@@ -269,13 +272,13 @@ const Home = () => {
 
 
         <Row>
-            <Col>
+            <Col sm={12} md={6} lg={2}>
             <img src={layer51} alt='rainbow'/>
             </Col>
 
-            <Col>
-            <p className='text-start'>Nayaa Kids Club</p>
-            <p className='text-start'>
+            <Col sm={12} md={6} lg={9}>
+            <p className='activities-par text-start'>Nayaa Kids Club</p>
+            <p className='activities-par text-start'>
                 Timings - 9:00 am through 17:00 pm<br/>
                 For more information, you may contact the Kids Club at Ext. 2050 <br/>
                 For children under the age of four, please contact the Concierge at Ext. 2016 to assist you with a<br/>
@@ -287,6 +290,103 @@ const Home = () => {
 
 
         {/* Things to do  */}
+
+        <Row className='thingstodo '>
+            <h2 className='text-center'>THINGS TO DO</h2>
+            <p className='text-center'>Check with your concierge on reliable tour companies and bookings</p>
+            <Col sm={12} md={6} lg={3}>
+            hello
+            </Col>
+
+
+            <Col sm={12} md={6} lg={9}>
+            <p>Tucked away on the southern tip of Baja California, the sizzling resort city<br/>
+                of Cabo San Lucas is beach heaven. Plunge into the inviting blue waters<br/>
+                in search of tropical fish, or sail around the coast for secluded coves.<br/>
+                Energetic travelers love exploring the wild canyons and deserts,<br/>
+                while foodies can sink their teeth into lip-smacking Mexican cuisine<br/>
+                on a culinary adventure.
+            </p>
+            
+
+            <p className='ms-5'>Visit Lands End</p>
+            <p className='ms-5'>
+                Journey to the edge of the world with a trip to the extreme southern point<br/>
+                of Baja California — Mexico’s Land’s End<br/>
+                The main event is El Arco, a magnificent sea arch that deserves<br/>
+                pride of place in your photo collection. The easiest way to visit is by boat.
+            </p>
+
+
+            <p className='ms-5'>Discover charming San Jose del Cabo<br/>
+                Soak up the small-town vibe of San José del Cabo, as you stroll through <br/>
+                the laid-back city streets. For your history fix, head to Plaza Mijares in<br/>
+                the heart of the old district and admire the colorful colonial buildings.<br/>
+                Best explored on foot, San José is the place to go for art galleries,<br/>
+                street entertainment and outdoor diningon locally caught seafood
+
+            </p>
+            <p className='ms-5'>Fly high on a parasailing adventure or arrange a Snorkel adventure</p>
+
+
+            <p className='ms-5'>Los Cabos is home to a number of world renowned restaurants.<br/>
+                Below are a few local favorites and within easy reach for you to explore
+            </p>
+
+            <div className='ms-5 d-flex'>
+                <div>
+                    <p> 
+                        Don Sanchez<br/>
+                        Sur beach house<br/>
+                        Bagatelle<br/>
+                        Comal<br/>
+                    </p>
+                </div>
+
+                <div className='ms-5'>
+                    <p>
+                        Flora farms<br/>
+                        Acre<br/>
+                        La lupita<br/>
+                        Jardin secreto<br/>
+                        Ruba’s bakery 
+                    </p>
+                </div>
+            </div>
+            </Col>
+
+        </Row>
+
+
+    </Container>
+
+
+
+    {/* Transport */}
+    <Container className='transport mt-5'>
+        <h1 className='transport-title text-center'>Transport</h1>
+        <p className='text-center'>
+            SJD airport is about 25 minutes away from the JW Marriot Resort.<br/>
+            Transportation for arrivals & departures will be available for booking through One By One Incentives.<br/>
+            Please click the link to view negotiated rates and provide your <br/>
+            details to book your transport service directly with them.
+        </p>
+        <div className='d-flex justify-content-center'>
+            <Button>Book Airport Transfer</Button>
+
+        </div>
+    </Container>
+
+
+    <Container className='question mt-5'>
+        <h1 className='questions text-center'>Any Questions</h1>
+        <p className='text-center'> Please contact the families or our event planner at the emails below:</p>
+        <p className='text-center'>Sakhrani Family - NeilandSareena@gmail.com<br/>
+            Hunt Family - SareenaandNeil@gmail.com<br/>
+            Vaishali Deshpande - events@vaishalideshpande.com
+        </p>
+
+
     </Container>
 
     

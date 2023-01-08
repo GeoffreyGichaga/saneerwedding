@@ -150,7 +150,58 @@ font-family: 'Parisienne', cursive;
 
 }
 
+
+
 .explore-par{
+    color: #305376;
+
+}
+
+
+
+.activities-par{
+    color: #305376;
+
+
+}
+
+
+/* Things todo */
+.thingstodo{
+    background-image: url("../Assets/Layer56.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    color: #305376;
+
+}
+
+
+
+
+/* Transport Secrtion */
+.transport{
+    color: #305376;
+
+
+}
+.transport-title{
+    color: #305376;
+    font-family: "JohnDavid";
+
+
+
+}
+
+
+
+/* Questions */
+.questions{
+    color: #305376;
+    font-family: "JohnDavid";
+
+}
+.question{
     color: #305376;
 
 }
