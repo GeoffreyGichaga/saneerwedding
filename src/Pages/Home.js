@@ -14,6 +14,20 @@ import layer36 from '../Assets/Layer36.png'
 import layer45 from '../Assets/Layer45.png'
 
 
+import layer44 from '../Assets/Layer44.png'
+import layer19 from '../Assets/Layer19.png'
+
+import layer63 from '../Assets/Layer63.png'
+
+
+import layer30 from '../Assets/Layer30.png'
+import layer291 from '../Assets/Layer291.png'
+import layer29 from '../Assets/Layer29.png'
+
+
+
+
+
 
 
 const Home = () => {
@@ -140,6 +154,52 @@ const Home = () => {
 
 
         </Row>
+    </Container>
+
+
+
+
+
+    {/* Event Details */}
+    <Container fluid>
+    {/* Heading */}
+
+    <h1 className='details-title text-center'>Event Details</h1>
+    <p className='details-par text-center'>As the event detais will be sent shortly ,Here is a small preview of what is to come</p>
+
+    <Row className='p-5'>
+        <Col>
+        <h2 className='dates'>APRIL 13</h2>
+        <div className='d-flex'>
+            <img src={layer44} alt='pool'/>
+            <img src={layer19} alt='plant'/>
+        </div>
+        <p className='timeline-titles'><i>Welcome Dinner & Mehndi</i></p>
+
+        </Col>
+
+        <Col>
+        <h2 className='dates'>APRIL 14</h2>
+
+        <div className='dancingcouple d-flex justify-content-center'>
+            <img src={layer63} alt='dance'/>
+        </div>
+        <p className='timeline-titles'><i>Sangeet & After Party</i></p>
+        </Col>
+
+
+        <Col>
+        <h2 className='dates'>APRIL 15</h2>
+        <div className='d-flex'>
+            <img src={layer30} alt='rings'/>
+            <div>
+                <img src={layer291} alt='glass1'/>
+                <img src={layer29} alt="glass"/>
+            </div>
+        </div>
+        <p className='timeline-titles'><i>Wedding & Reception</i></p>
+        </Col>
+    </Row>
     </Container>
     
 

@@ -103,3 +103,38 @@ font-family: 'Parisienne', cursive;
     height: 80%;
     margin-top: 15%;
 }
+
+
+
+
+/* Event Details*/
+
+.details-title{
+    font-family: "JohnDavid";
+    color: #305376;
+}
+
+.details-par {
+    color: #305376;
+
+}
+
+.dates{
+    color: #305376;
+    font-size: 18pt;
+
+}
+
+.timeline-titles{
+    color: #305376;
+    font-weight: 15pt;
+
+}
+
+
+.dancingcouple{
+    background-image: url("../Assets/Layer64.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
