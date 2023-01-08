@@ -57,19 +57,24 @@ const Home = () => {
     </Container>
 
     {/* Welcome Section */}
-    <Container fluid className='welcome-section'>
-        <h2 className='welcome-text mt-4 text-center'>Welcome</h2>
+    <Container fluid className='welcome-section mt-4'>
+        <h2 className='welcome-text mt-5 text-center'>Welcome</h2>
         <Row>
-            <Col sm={12} md={6} lg={3} className='flowercol'>
+            <Col sm={12} md={12} lg={3} className='flowercol'>
                 <img src={layer9} alt='flower'/>
             </Col>
-            <Col sm={12} md={6} lg={6}>
+
+
+            <Col sm={12} md={12} lg={6}>
             <p className='welcome-par text-center'>Dear family and friends, the time has come <br/> To <span className='spantext'> raise the roof </span>  and have some <span className='spantext'> fun </span><br/>
             Feel it in your heart and feel it in your <span className='spantext'> soul </span> <br/> Let the music <span className='spantext'>take control </span> <br/>Everybody <span className='spantext'>sing </span>, everybody <span className='spantext'>dance </span> <br/>
             Lose yourself in wild romance <br/> We’re going to <br/> <span className='spantext'> Party, Love, Fiesta, Forever </span> <br/> Join us in Los Cabos!
             </p>
             </Col>
-            <Col sm={12} md={6} lg={3} className='mapcol'>
+
+
+
+            <Col sm={12} md={12} lg={2} className='mapcol'>
                 <img className='w-100' src={layer39} alt='layer39'/>
             </Col>
         </Row>
@@ -179,7 +184,7 @@ const Home = () => {
     <p className='details-par text-center'>As the event detais will be sent shortly ,Here is a small preview of what is to come</p>
 
     <Row className='p-5'>
-        <Col>
+        <Col sm={12} md={12} lg={4}>
         <h2 className='dates text-center'>APRIL 13</h2>
         <div className='d-flex justify-content-center mt-5 mb-5'>
             <img src={layer44} alt='pool'/>
@@ -189,7 +194,7 @@ const Home = () => {
 
         </Col>
 
-        <Col>
+        <Col sm={12} md={12} lg={4}>
         <h2 className='dates text-center'>APRIL 14</h2>
 
         <div className='dancingcouple d-flex justify-content-center mt-5'>
@@ -199,7 +204,7 @@ const Home = () => {
         </Col>
 
 
-        <Col>
+        <Col sm={12} md={12} lg={4}>
         <h2 className='dates text-center'>APRIL 15</h2>
         <div className='d-flex justify-content-center mt-5 mb-3'>
             <img src={layer30} alt='rings'/>
@@ -365,7 +370,7 @@ const Home = () => {
     {/* Transport */}
     <Container className='transport mt-5'>
         <h1 className='transport-title text-center'>Transport</h1>
-        <p className='text-center'>
+        <p className='text-center mt-4'>
             SJD airport is about 25 minutes away from the JW Marriot Resort.<br/>
             Transportation for arrivals & departures will be available for booking through One By One Incentives.<br/>
             Please click the link to view negotiated rates and provide your <br/>
@@ -379,8 +384,8 @@ const Home = () => {
 
 
     <Container className='question mt-5'>
-        <h1 className='questions text-center'>Any Questions</h1>
-        <p className='text-center'> Please contact the families or our event planner at the emails below:</p>
+        <h1 className='questions text-center mt-5'>Any Questions</h1>
+        <p className='text-center mt-4'> Please contact the families or our event planner at the emails below:</p>
         <p className='text-center'>Sakhrani Family - NeilandSareena@gmail.com<br/>
             Hunt Family - SareenaandNeil@gmail.com<br/>
             Vaishali Deshpande - events@vaishalideshpande.com

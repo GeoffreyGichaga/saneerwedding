@@ -8,30 +8,38 @@ font-family: 'Parisienne', cursive;
 
 
 
-
+/* Banner Section */
 
 #firstblock{
     background-image: url("../Assets/Layer2.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 50%;
+}
+.logo{
+    width: 25%;
+    height: auto;
+}
+.couplepic{
+    margin-top: 20%;
+}
+
+.wed-date {
+    font-family: "Butler";
+}
+.couple-names {
+    font-family: "Butler-m";
+
 }
 
 
+/* Welcome Section */
 .welcome-text{
     color: #305376;
     font-family: "JohnDavid";
     font-size: 70pt;
 
 }
-
-.couplepic{
-    margin-top: 20%;
-}
-
-
-
-/* Welcome Section */
 
 .welcome-section{
     background-image: linear-gradient(rgb(255, 251, 251), rgba(173, 171, 171, 0.5)), url("../Assets/Layer1.png");
@@ -56,15 +64,15 @@ font-family: 'Parisienne', cursive;
     background-image: url('../Assets/Layer11.png');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 47.5rem;
+    /* height: 47.5rem; */
 }
 
-.mapcol{
+/* .mapcol{
     background-image: url('../Assets/Layer41.png');
     background-repeat: no-repeat;
     background-size: contain;
 
-}
+} */
 
 
 
