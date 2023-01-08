@@ -138,3 +138,19 @@ font-family: 'Parisienne', cursive;
     background-size: contain;
     background-position: center;
 }
+
+
+
+
+/* Explore section */
+
+.explore-title {
+    font-family: "JohnDavid";
+    color: #305376;
+
+}
+
+.explore-par{
+    color: #305376;
+
+}

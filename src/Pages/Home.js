@@ -26,6 +26,14 @@ import layer29 from '../Assets/Layer29.png'
 
 
 
+import layer48 from '../Assets/Layer48.png'
+import layer50 from '../Assets/Layer50.png'
+
+
+import layer51 from '../Assets/Layer51.png'
+
+
+
 
 
 
@@ -169,38 +177,118 @@ const Home = () => {
 
     <Row className='p-5'>
         <Col>
-        <h2 className='dates'>APRIL 13</h2>
-        <div className='d-flex'>
+        <h2 className='dates text-center'>APRIL 13</h2>
+        <div className='d-flex justify-content-center mt-5 mb-5'>
             <img src={layer44} alt='pool'/>
             <img src={layer19} alt='plant'/>
         </div>
-        <p className='timeline-titles'><i>Welcome Dinner & Mehndi</i></p>
+        <p className='timeline-titles text-center'><i>Welcome Dinner & Mehndi</i></p>
 
         </Col>
 
         <Col>
-        <h2 className='dates'>APRIL 14</h2>
+        <h2 className='dates text-center'>APRIL 14</h2>
 
-        <div className='dancingcouple d-flex justify-content-center'>
+        <div className='dancingcouple d-flex justify-content-center mt-5'>
             <img src={layer63} alt='dance'/>
         </div>
-        <p className='timeline-titles'><i>Sangeet & After Party</i></p>
+        <p className='timeline-titles text-center'><i>Sangeet & After Party</i></p>
         </Col>
 
 
         <Col>
-        <h2 className='dates'>APRIL 15</h2>
-        <div className='d-flex'>
+        <h2 className='dates text-center'>APRIL 15</h2>
+        <div className='d-flex justify-content-center mt-5 mb-3'>
             <img src={layer30} alt='rings'/>
             <div>
                 <img src={layer291} alt='glass1'/>
                 <img src={layer29} alt="glass"/>
             </div>
         </div>
-        <p className='timeline-titles'><i>Wedding & Reception</i></p>
+        <p className='timeline-titles text-center'><i>Wedding & Reception</i></p>
         </Col>
     </Row>
     </Container>
+
+
+
+    {/* Explore */}
+    <Container>
+        <h1 className='explore-title'>Exploring Los Cabos</h1>
+        <Row>
+            <p className='explore-par text-center'>
+            Conveniently located only 25 minutes from the Los Cabos International Airport, the Hotel is perfectly <br/>
+            situated in the heart of San Jose del Cabo. You can enjoy the traditional, authentic Mexican<br/>
+            downtown area offering an abundance of things to do, including visiting the Mission Site, browsing<br/>
+            international art galleries, enjoying the nightlife and wonderful boutique shops, and, of course,<br/>
+            tasting the world-famous culinary tourism specialized in Baja California fusions<br/>
+
+            Activities at the Hotel
+            </p>
+        </Row>
+        <h3 className='text-center'>ACTIVITIES AT THE HOTEL</h3>
+
+
+        <Row>
+            <Col sm={12} md={6} lg={3}>
+                <img src={layer48} alt='grass'/>
+            </Col>
+
+
+            <Col sm={12} md={6} lg={9}>
+            <p>A Masterpiece in 27 Holes</p>
+            <p>
+                One of the most unique golf experiences in all of Los Cabos with stunning views of the Sea of <br/>
+                Cortez from 70% of the golf course. With two comfort stations on each 9 serving food and <br/>
+                beverages, you are never more than a couple of holes away from your next taco or margarita.<br/>
+                Wedding rate offers you 15% discount
+            </p>
+            </Col>
+        </Row>
+
+
+        <Row>
+            <Col sm={12} md={6} lg={9}>
+                <p className='text-end'>Jasha Spa</p>
+
+                <p className='text-end'>Jasha Spa, the hotel’s resort spa in San Jose del Cabo and the most luxurious in Los Cabos,<br/>
+                offers many blissful services daily to take your increase your leisure. Services include hair and<br/>
+                scalp treatments, massages, indoor pools, jacuzzis and more.<br/>
+                Please contact the Spa directly for your appointments at Extension #2061.<br/>
+                Wedding rate offers you 20% discount</p>
+
+                <p className='text-end'>Jasha Beauty Salon</p>
+                <p className='text-end'>We'll update the hair & makeup information as we get closer.</p>
+            </Col>
+
+            <Col sm={12} md={6} lg={3}>
+                <img src={layer50} alt='pot'/>
+            </Col>
+        </Row>
+
+
+
+        <Row>
+            <Col>
+            <img src={layer51} alt='rainbow'/>
+            </Col>
+
+            <Col>
+            <p className='text-start'>Nayaa Kids Club</p>
+            <p className='text-start'>
+                Timings - 9:00 am through 17:00 pm<br/>
+                For more information, you may contact the Kids Club at Ext. 2050 <br/>
+                For children under the age of four, please contact the Concierge at Ext. 2016 to assist you with a<br/>
+                Baby Sitting service.
+            </p>
+            </Col>
+        </Row>
+
+
+
+        {/* Things to do  */}
+    </Container>
+
     
 
 
