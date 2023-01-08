@@ -36,6 +36,10 @@ import layer50 from '../Assets/Layer50.png'
 import layer51 from '../Assets/Layer51.png'
 
 
+import layer31 from '../Assets/Layer31.png'
+import layer33 from '../Assets/Layer33.png'
+import layer35 from '../Assets/Layer35.png'
+
 
 
 
@@ -66,8 +70,8 @@ const Home = () => {
 
 
             <Col sm={12} md={12} lg={6}>
-            <p className='welcome-par text-center'>Dear family and friends, the time has come <br/> To <span className='spantext'> raise the roof </span>  and have some <span className='spantext'> fun </span><br/>
-            Feel it in your heart and feel it in your <span className='spantext'> soul </span> <br/> Let the music <span className='spantext'>take control </span> <br/>Everybody <span className='spantext'>sing </span>, everybody <span className='spantext'>dance </span> <br/>
+            <p className='welcome-par text-center'>Dear family and friends, the time <span><img src={layer31} alt='time'/></span> has come <br/> To <span className='spantext'> raise the roof </span>  and have some <span className='spantext'> fun </span><br/>
+            Feel it in your heart <span><img src={layer33} alt='time'/></span> and feel it in your <span className='spantext'> soul </span> <br/> Let the music <span className='spantext'> <img src={layer35} alt='time'/> take control </span> <br/>Everybody <span className='spantext'>sing </span>, everybody <span className='spantext'>dance </span> <br/>
             Lose yourself in wild romance <br/> We’re going to <br/> <span className='spantext'> Party, Love, Fiesta, Forever </span> <br/> Join us in Los Cabos!
             </p>
             </Col>
@@ -75,7 +79,7 @@ const Home = () => {
 
 
             <Col sm={12} md={12} lg={2} className='mapcol'>
-                <img className='w-100' src={layer39} alt='layer39'/>
+                <img className='sm-mb-5' src={layer39} alt='layer39'/>
             </Col>
         </Row>
     </Container>
@@ -83,8 +87,8 @@ const Home = () => {
 
 
     {/* Our Story Section  */}
-    <Container fluid >
-        <h1 className='story-title'>Our Story</h1>
+    <Container fluid className='story2'>
+        <h1 className='story-title ms-5'>Our Story</h1>
         <Row className='p-5'>
             <p className='storyline mt-2'>Neil saw Sareena for the first time at her 1st birthday party <br/>
                 and sparks were flying. He knew immediately <br/>

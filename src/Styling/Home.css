@@ -42,7 +42,7 @@ font-family: 'Parisienne', cursive;
 }
 
 .welcome-section{
-    background-image: linear-gradient(rgb(255, 251, 251), rgba(173, 171, 171, 0.5)), url("../Assets/Layer1.png");
+    background-image: linear-gradient(rgb(255, 251, 251), rgba(255, 255, 255, 0.5),whitesmoke), url("../Assets/Layer1.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 47.5rem;
@@ -56,7 +56,7 @@ font-family: 'Parisienne', cursive;
 }
 .spantext{
     color: #fc0199;
-    font-family: 'Parisienne', cursive;
+    font-family: 'Akayla';
 
 }
 
@@ -64,7 +64,7 @@ font-family: 'Parisienne', cursive;
     background-image: url('../Assets/Layer11.png');
     background-repeat: no-repeat;
     background-size: contain;
-    /* height: 47.5rem; */
+    height: 47.5rem;
 }
 
 /* .mapcol{
@@ -112,6 +112,14 @@ font-family: 'Parisienne', cursive;
     margin-top: 15%;
 }
 
+
+.story2{
+    background-image: url("../Assets/Layer11c.png");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: right;
+    background-position-y: -10%;
+}
 
 
 
