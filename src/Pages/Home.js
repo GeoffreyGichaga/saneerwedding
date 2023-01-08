@@ -306,7 +306,7 @@ const Home = () => {
             <h2 className='text-center'>THINGS TO DO</h2>
             <p className='text-center'>Check with your concierge on reliable tour companies and bookings</p>
             <Col sm={12} md={6} lg={3}>
-            hello
+            fish pics
             </Col>
 
 
