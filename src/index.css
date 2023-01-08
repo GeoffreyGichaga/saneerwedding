@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: Akayla;
+  src: local("Akayla"),
+  url("./Fonts/AkaylaScript_PERSONAL.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Butler;
+  src: local("Butler"),
+  url("./Fonts/Butler_Light.otf") format("truetype");
+  font-weight: lighter;
+}
+
+
+@font-face {
+  font-family: Butler-m;
+  src: local("Butler-m"),
+  url("./Fonts/Butler_Medium.otf") format("truetype");
+  
+}
+
+@font-face {
+  font-family: JohnDavid;
+  src: local("JohnDavid"),
+  url("./Fonts/John Davidson Demo.ttf") format("truetype");
+}
+

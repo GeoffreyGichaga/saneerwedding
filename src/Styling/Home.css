@@ -20,13 +20,13 @@ font-family: 'Parisienne', cursive;
 
 .welcome-text{
     color: #305376;
-    font-family: 'Fleur De Leah', cursive;
+    font-family: "JohnDavid";
     font-size: 70pt;
 
 }
 
 .couplepic{
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 
@@ -64,4 +64,42 @@ font-family: 'Parisienne', cursive;
     background-repeat: no-repeat;
     background-size: contain;
 
+}
+
+
+
+
+/* Story Section  */
+
+.story-title{
+    font-family: "JohnDavid";
+}
+
+.couple2col{
+    background-image: url("../Assets/Layer42.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+
+.storyline{
+    color: #305376;
+}
+
+.longstory{
+    color: #305376;
+}
+
+.couple3{
+    background-image: url("../Assets/Layer46.png");
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.couple3pic{
+    width: auto;
+    height: 80%;
+    margin-top: 15%;
 }

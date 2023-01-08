@@ -6,8 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 
-
-
+import './Fonts/AkaylaScript_PERSONAL.ttf'
+import './Fonts/Butler_Light.otf'
+import './Fonts/Butler_Medium.otf'
+import './Fonts/John Davidson Demo.ttf'
 
 
 
