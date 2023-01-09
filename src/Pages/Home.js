@@ -66,6 +66,7 @@ const Home = () => {
         <Row>
             <Col sm={12} md={12} lg={3} className='flowercol'>
                 <img src={layer9} alt='flower'/>
+
             </Col>
 
 
@@ -78,11 +79,14 @@ const Home = () => {
 
 
 
-            <Col sm={12} md={12} lg={2} className='mapcol'>
-                <img className='sm-mb-5' src={layer39} alt='layer39'/>
+            <Col sm={12} md={12} lg={3} className='mapcol'>
+                <img className='couplepic3' src={layer39} alt='layer39'/>
             </Col>
+
         </Row>
+
     </Container>
+
 
 
 
@@ -99,8 +103,8 @@ const Home = () => {
         </Row>
 
         <Row className='couple2col p-5'>
-            <Col  sm={12} md={6} lg={4}>
-                <img src={layer36} alt='couple'/>
+            <Col  sm={12} md={6} lg={3}>
+                <img className='w-50' src={layer36} alt='couple'/>
             </Col>
             <Col sm={12} md={6} lg={8}>
                 <p className='longstory'>
@@ -136,8 +140,8 @@ const Home = () => {
 
         {/* Story Continuation */}
         <Row className='story-row'>
-            <Col className='p-5'>
-            <p className='longstory '>
+            <Col sm={12} md={6} lg={7} className='p-5'>
+            <p className='longstory'>
 
                 Having graduated from USC, both Sareena and Neil <br/>
                 bonded over that connection and shared a similar<br/>
@@ -168,8 +172,8 @@ const Home = () => {
                 <p className='longstory'> <i>We invite you to join both families in the beautiful coastal destination Los Cabos!</i></p>
             </Col>
 
-            <Col className='couple3 d-flex justify-content-end'>
-                <img className='couple3pic' src={layer45} alt='couple3'/>
+            <Col sm={12} md={6} lg={5} className='couple3 d-flex justify-content-end'>
+                <img className='couple3pic h-75' src={layer45} alt='couple3'/>
             </Col>
 
 
@@ -194,7 +198,7 @@ const Home = () => {
             <img src={layer44} alt='pool'/>
             <img src={layer19} alt='plant'/>
         </div>
-        <p className='timeline-titles text-center'><i>Welcome Dinner & Mehndi</i></p>
+        <p className='timeline-title text-center'><i>Welcome Dinner <br/> & Mehndi</i></p>
 
         </Col>
 
@@ -204,7 +208,7 @@ const Home = () => {
         <div className='dancingcouple d-flex justify-content-center mt-5'>
             <img src={layer63} alt='dance'/>
         </div>
-        <p className='timeline-titles text-center'><i>Sangeet & After Party</i></p>
+        <p className='timeline-title text-center'><i>Sangeet <br/> & After Party</i></p>
         </Col>
 
 
@@ -217,7 +221,7 @@ const Home = () => {
                 <img src={layer29} alt="glass"/>
             </div>
         </div>
-        <p className='timeline-titles text-center'><i>Wedding & Reception</i></p>
+        <p className='timeline-title text-center'><i>Wedding <br/> & Reception</i></p>
         </Col>
     </Row>
     </Container>

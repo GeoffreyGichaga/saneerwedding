@@ -11,7 +11,7 @@ font-family: 'Parisienne', cursive;
 /* Banner Section */
 
 #firstblock{
-    background-image: url("../Assets/Layer2.png");
+    background-image: url("../Assets/back.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 50%;
@@ -33,19 +33,31 @@ font-family: 'Parisienne', cursive;
 }
 
 
+
+/* .behind-logo {
+    background-image: url("../Assets/Layer3.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 53%;
+    
+} */
+
+
 /* Welcome Section */
 .welcome-text{
     color: #305376;
     font-family: "JohnDavid";
     font-size: 70pt;
+    font-weight: 400;
 
 }
 
 .welcome-section{
-    background-image: linear-gradient(rgb(255, 251, 251), rgba(255, 255, 255, 0.5),whitesmoke), url("../Assets/Layer1.png");
+    background-image: url("../Assets/back2.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 47.5rem;
+    background-position-y: 64%;
 
 }
 
@@ -77,7 +89,10 @@ font-family: 'Parisienne', cursive;
 } */
 
 
-
+.couplepic3 {
+    height: 65%;
+    width: auto;
+}
 
 /* Story Section  */
 .story-row{
@@ -86,6 +101,9 @@ font-family: 'Parisienne', cursive;
 }
 .story-title{
     font-family: "JohnDavid";
+    font-weight: 800;
+    /* margin-top: 120%;
+    margin-left: 70%; */
 }
 
 .couple2col{
@@ -98,27 +116,29 @@ font-family: 'Parisienne', cursive;
 .storyline{
     color: #305376;
     font-family: "Butler-m";
+    font-size: 15pt;
 
 }
 
 .longstory{
     color: #305376;
     font-family: "Butler-m";
+    font-size: 15pt;
+
 
 }
 
 .couple3{
     background-image: url("../Assets/Layer46.png");
-    
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 45rem;
     background-position: right;
 }
 
 .couple3pic{
     width: auto;
     height: 80%;
-    margin-top: 15%;
+    margin-top: 30%;
 }
 
 
@@ -141,24 +161,27 @@ font-family: 'Parisienne', cursive;
 .details-title{
     font-family: "JohnDavid";
     color: #305376;
+    font-weight: 800;
 }
 
 .details-par {
     color: #305376;
     font-family: "Butler-m";
+    font-size: 15pt;
+
 
 
 }
 
 .dates{
     color: #305376;
-    font-size: 18pt;
+    font-size: 25pt;
 
 }
 
-.timeline-titles{
+.timeline-title{
     color: #305376;
-    font-weight: 20pt;
+    font-size: 22pt;
 
 }
 
@@ -178,6 +201,9 @@ font-family: 'Parisienne', cursive;
 .explore-title {
     font-family: "JohnDavid";
     color: #305376;
+    font-weight: 800;
+    font-weight: 800;
+
 
 }
 
@@ -241,6 +267,8 @@ font-family: 'Parisienne', cursive;
 .transport-title{
     color: #305376;
     font-family: "JohnDavid";
+    font-weight: 800;
+
 
 
 
@@ -259,6 +287,8 @@ font-family: 'Parisienne', cursive;
 .questions{
     color: #305376;
     font-family: "JohnDavid";
+    font-weight: 800;
+
 
 }
 .question{
