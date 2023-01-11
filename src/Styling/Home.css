@@ -116,14 +116,14 @@ font-family: 'Parisienne', cursive;
 .storyline{
     color: #305376;
     font-family: "Butler-m";
-    font-size: 15pt;
+    font-size: 14pt;
 
 }
 
 .longstory{
     color: #305376;
     font-family: "Butler-m";
-    font-size: 15pt;
+    font-size: 14pt;
 
 
 }
@@ -167,7 +167,7 @@ font-family: 'Parisienne', cursive;
 .details-par {
     color: #305376;
     font-family: "Butler-m";
-    font-size: 15pt;
+    font-size: 14pt;
 
 
 
@@ -212,7 +212,7 @@ font-family: 'Parisienne', cursive;
 .explore-par{
     color: #305376;
     font-family: "Butler-m";
-    font-size: 15pt;
+    font-size: 14pt;
 
 
 
@@ -222,7 +222,7 @@ font-family: 'Parisienne', cursive;
 
 .activities-par{
     color: #305376;
-    font-size: 15pt;
+    font-size: 14pt;
 
 
 
@@ -291,6 +291,8 @@ font-family: 'Parisienne', cursive;
 .transport{
     color: #305376;
     font-family: "Butler-m";
+    font-size: 14pt;
+
 
 
 
@@ -325,6 +327,8 @@ font-family: 'Parisienne', cursive;
 .question{
     color: #305376;
     font-family: "Butler-m";
+    font-size: 14pt;
+
 
 
 }
