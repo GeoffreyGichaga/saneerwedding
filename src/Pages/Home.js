@@ -330,8 +330,10 @@ const Home = () => {
         {/* Things to do  */}
 
         <Row className='thingstodo mt-5 '>
-            <h2 className='text-center'>THINGS TO DO</h2>
+            <div className='things-heading'>
+            <h2 className='thingstodo-title text-center'>THINGS TO DO</h2>
             <p className='thingstodo-par text-center'>Check with your concierge on reliable tour companies and bookings</p>
+            </div>
             <Col sm={12} md={6} lg={3}>
                 <div className='mt-5 ms-5'>
                     <img src={layer54} alt='fish1'/>
@@ -358,8 +360,8 @@ const Home = () => {
             </Col>
 
 
-            <Col sm={12} md={6} lg={9}>
-            <p className='thingstodo-par'>Tucked away on the southern tip of Baja California, the sizzling resort city<br/>
+            <Col className='thingstodo-col' sm={12} md={6} lg={9}>
+            <p className='thingstodo-par mt-5'>Tucked away on the southern tip of Baja California, the sizzling resort city<br/>
                 of Cabo San Lucas is beach heaven. Plunge into the inviting blue waters<br/>
                 in search of tropical fish, or sail around the coast for secluded coves.<br/>
                 Energetic travelers love exploring the wild canyons and deserts,<br/>
@@ -368,13 +370,15 @@ const Home = () => {
             </p>
             
 
-            <p className='thingstodo-par ms-5'>Visit Lands End</p>
-            <p className='thingstodo-par ms-5'>
-                Journey to the edge of the world with a trip to the extreme southern point<br/>
-                of Baja California — Mexico’s Land’s End<br/>
-                The main event is El Arco, a magnificent sea arch that deserves<br/>
-                pride of place in your photo collection. The easiest way to visit is by boat.
-            </p>
+            <div className='thingstodo-2'>
+                <p className='thingstodo-par ms-5'>Visit Lands End</p>
+                <p className='thingstodo-par ms-5'>
+                    Journey to the edge of the world with a trip to the extreme southern point<br/>
+                    of Baja California — Mexico’s Land’s End<br/>
+                    The main event is El Arco, a magnificent sea arch that deserves<br/>
+                    pride of place in your photo collection. The easiest way to visit is by boat.
+                </p>
+            </div>
 
 
             <p className='thingstodo-par ms-5'>Discover charming San Jose del Cabo<br/>

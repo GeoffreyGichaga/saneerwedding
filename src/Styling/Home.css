@@ -254,14 +254,35 @@ font-family: 'Parisienne', cursive;
     background-position: left;
     color: #305376;
     font-family: "Butler-m";
-    /* background-position-x: 4%; */
 
 }
 
 .thingstodo-par{
     font-size: 14pt;
+    
 
 }
+
+.thingstodo-col{
+    background-image: url("../Assets/Layer61.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 73%;
+    background-position-y: 2%;
+    background-size: 15%;
+}
+
+.thingstodo-2{
+    background-image: url("../Assets/Layer61.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 80%;
+    background-position-y: 2%;
+    background-size: 10%;
+    
+
+}
+
 
 
 
