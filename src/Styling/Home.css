@@ -6,8 +6,19 @@ font-family: 'Parisienne', cursive;
 */
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Parisienne&display=swap');
 
+/* Navbar */
+.navlinks{
+    color: #305376;
+    font-weight: bold;
+    font-family: "Butler-m";
 
+}
 
+#mainbar{
+    background-color: red;
+    background-image: none;
+
+}
 /* Banner Section */
 
 #firstblock{

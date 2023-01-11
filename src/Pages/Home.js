@@ -1,5 +1,6 @@
 import React from 'react'
-import MainNav from '../Components/MainNav'
+
+
 import '../Styling/Home.css'
 import Container from 'react-bootstrap/Container'
 import Logo from '../Components/Logo'
@@ -7,7 +8,8 @@ import layer6 from '../Assets/Layer6.png'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
-
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 
 import layer9 from '../Assets/Layer9.png'
@@ -45,8 +47,7 @@ import layer35 from '../Assets/Layer35.png'
 
 import layer54 from '../Assets/Layer54.png'
 import layer55c from '../Assets/Layer55c.png'
-import layer55 from '../Assets/Layer55.png'
-import layer56 from '../Assets/Layer56.png'
+
 import layer58 from '../Assets/Layer58.png'
 import layer60 from '../Assets/Layer60.png'
 
@@ -69,11 +70,59 @@ import layer60 from '../Assets/Layer60.png'
 
 
 const Home = () => {
+
   return (
     <>
+    {/* Navbar */}
+    <Navbar collapseOnSelect expand="lg"  bg="none">
+      <Container fluid >
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+
+          <Nav className='mx-auto'>
+              
+            <Nav.Item>
+              <Nav.Link className='navlinks' href="#Welcome-view">Welcome</Nav.Link>
+
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link className='navlinks ms-5' href="#story-view">Our Story</Nav.Link>
+
+            </Nav.Item>            
+            <Nav.Item>
+              <Nav.Link className='navlinks ms-5' href="#event-view">Event Details</Nav.Link>
+
+            </Nav.Item>  
+        
+          </Nav>
+
+          <Nav className='mx-auto'>
+            <Nav.Item>
+                <Nav.Link className='navlinks ms-5' href="#explore-view">Explore</Nav.Link>
+
+              </Nav.Item>            
+              
+              <Nav.Item>
+                <Nav.Link className='navlinks ms-5' href="#transport-view">Transport</Nav.Link>
+
+              </Nav.Item>           
+              
+              <Nav.Item>
+                <Nav.Link className='navlinks ms-5' href="#question-view">Questions</Nav.Link>
+
+              </Nav.Item>  
+          </Nav>
+          
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+
+
+
     {/* Logo Section */}
+
     <Container fluid id='firstblock'>
-        <MainNav/>
         <Logo/>
         {/* Couple Image */}
         <div className='d-flex mt-5 justify-content-end'>
@@ -85,7 +134,7 @@ const Home = () => {
 
     {/* Welcome Section */}
     <Container fluid className='welcome-section mt-4'>
-        <h2 className='welcome-text mt-5 text-center'>Welcome</h2>
+        <h2 id='Welcome-view' className='welcome-text mt-5 text-center'>Welcome</h2>
         <Row>
             <Col sm={12} md={12} lg={3} className='flowercol'>
                 <img src={layer9} alt='flower'/>
@@ -114,7 +163,7 @@ const Home = () => {
 
 
     {/* Our Story Section  */}
-    <Container fluid className='story2'>
+    <Container id='story-view' fluid className='story2'>
         <h1 className='story-title ms-5'>Our Story</h1>
         <Row className='p-5'>
             <p className='storyline mt-2'>Neil saw Sareena for the first time at her 1st birthday party <br/>
@@ -208,7 +257,7 @@ const Home = () => {
 
 
     {/* Event Details */}
-    <Container fluid>
+    <Container id='event-view' fluid>
     {/* Heading */}
 
     <h1 className='details-title text-center'>Event Details</h1>
@@ -252,7 +301,7 @@ const Home = () => {
 
 
     {/* Explore */}
-    <Container fluid>
+    <Container id='explore-view' fluid>
         <h1 className='explore-title text-center mt-4'>Exploring Los Cabos</h1>
         <Row className='mt-5'>
             <p className='explore-par text-center'>
@@ -426,7 +475,7 @@ const Home = () => {
 
 
     {/* Transport */}
-    <Container className='transport mt-5'>
+    <Container id='transport-view' className='transport mt-5'>
         <h1 className='transport-title text-center'>Transport</h1>
         <p className='text-center mt-4'>
             SJD airport is about 25 minutes away from the JW Marriot Resort.<br/>
@@ -441,7 +490,10 @@ const Home = () => {
     </Container>
 
 
-    <Container className='question mt-5'>
+
+    {/* Question */}
+
+    <Container id='question-view' className='question mt-5'>
         <h1 className='questions text-center mt-5'>Any Questions</h1>
         <p className='text-center mt-4'> Please contact the families or our event planner at the emails below:</p>
         <p className='text-center'>Sakhrani Family - NeilandSareena@gmail.com<br/>

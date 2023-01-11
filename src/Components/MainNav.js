@@ -9,12 +9,12 @@ import '../Styling/Nav.css'
 
 const MainNav = () => {
   return (
-    <Navbar collapseOnSelect expand="lg"   id='mainbar'>
-      <Container fluid>
+    <Navbar collapseOnSelect expand="lg"  bg="none">
+      <Container fluid >
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
 
-          <Nav className="me-auto">
+          <Nav className='mx-auto'>
               
             <Nav.Item>
               <Nav.Link className='navlinks' href="#">Welcome</Nav.Link>
@@ -22,27 +22,31 @@ const MainNav = () => {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link className='navlinks' href="#">Our Story</Nav.Link>
+              <Nav.Link className='navlinks ms-5' href="#">Our Story</Nav.Link>
 
             </Nav.Item>            
             <Nav.Item>
-              <Nav.Link className='navlinks' href="#">Event Details</Nav.Link>
+              <Nav.Link className='navlinks ms-5' href="#">Event Details</Nav.Link>
 
-            </Nav.Item>            
+            </Nav.Item>  
+        
+          </Nav>
+
+          <Nav className='mx-auto'>
             <Nav.Item>
-              <Nav.Link className='navlinks' href="#">Explore</Nav.Link>
+                <Nav.Link className='navlinks ms-5' href="#">Explore</Nav.Link>
 
-            </Nav.Item>            
-            
-            <Nav.Item>
-              <Nav.Link className='navlinks' href="#">Transport</Nav.Link>
+              </Nav.Item>            
+              
+              <Nav.Item>
+                <Nav.Link className='navlinks ms-5' href="#">Transport</Nav.Link>
 
-            </Nav.Item>           
-            
-            <Nav.Item>
-              <Nav.Link className='navlinks' href="#">Questions</Nav.Link>
+              </Nav.Item>           
+              
+              <Nav.Item>
+                <Nav.Link className='navlinks ms-5' href="#">Questions</Nav.Link>
 
-            </Nav.Item>          
+              </Nav.Item>  
           </Nav>
           
         </Navbar.Collapse>
