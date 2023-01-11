@@ -43,6 +43,29 @@ import layer35 from '../Assets/Layer35.png'
 
 
 
+import layer54 from '../Assets/Layer54.png'
+import layer55c from '../Assets/Layer55c.png'
+import layer55 from '../Assets/Layer55.png'
+import layer56 from '../Assets/Layer56.png'
+import layer58 from '../Assets/Layer58.png'
+import layer60 from '../Assets/Layer60.png'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 const Home = () => {
@@ -308,14 +331,35 @@ const Home = () => {
 
         <Row className='thingstodo mt-5 '>
             <h2 className='text-center'>THINGS TO DO</h2>
-            <p className='text-center'>Check with your concierge on reliable tour companies and bookings</p>
+            <p className='thingstodo-par text-center'>Check with your concierge on reliable tour companies and bookings</p>
             <Col sm={12} md={6} lg={3}>
-            fish pics
+                <div className='mt-5 ms-5'>
+                    <img src={layer54} alt='fish1'/>
+                </div>
+
+                <div className='mt-5'>
+                    <img className='ms-4' src={layer55c} alt='fish1'/>
+                </div>
+
+                <div className='mt-5 ms-5'>
+                    <img className='ms-4' src={layer55c} alt='fish1'/>
+                </div>
+
+                
+
+                <div className='d-flex'>
+                <img className='ms-4' src={layer60} alt='fish1'/>
+
+                 <img className='ms-4' src={layer58} alt='fish1'/>
+                </div>
+
+
+
             </Col>
 
 
             <Col sm={12} md={6} lg={9}>
-            <p>Tucked away on the southern tip of Baja California, the sizzling resort city<br/>
+            <p className='thingstodo-par'>Tucked away on the southern tip of Baja California, the sizzling resort city<br/>
                 of Cabo San Lucas is beach heaven. Plunge into the inviting blue waters<br/>
                 in search of tropical fish, or sail around the coast for secluded coves.<br/>
                 Energetic travelers love exploring the wild canyons and deserts,<br/>
@@ -324,8 +368,8 @@ const Home = () => {
             </p>
             
 
-            <p className='ms-5'>Visit Lands End</p>
-            <p className='ms-5'>
+            <p className='thingstodo-par ms-5'>Visit Lands End</p>
+            <p className='thingstodo-par ms-5'>
                 Journey to the edge of the world with a trip to the extreme southern point<br/>
                 of Baja California — Mexico’s Land’s End<br/>
                 The main event is El Arco, a magnificent sea arch that deserves<br/>
@@ -333,7 +377,7 @@ const Home = () => {
             </p>
 
 
-            <p className='ms-5'>Discover charming San Jose del Cabo<br/>
+            <p className='thingstodo-par ms-5'>Discover charming San Jose del Cabo<br/>
                 Soak up the small-town vibe of San José del Cabo, as you stroll through <br/>
                 the laid-back city streets. For your history fix, head to Plaza Mijares in<br/>
                 the heart of the old district and admire the colorful colonial buildings.<br/>
@@ -341,16 +385,16 @@ const Home = () => {
                 street entertainment and outdoor diningon locally caught seafood
 
             </p>
-            <p className='ms-5'>Fly high on a parasailing adventure or arrange a Snorkel adventure</p>
+            <p className='thingstodo-par ms-5'>Fly high on a parasailing adventure or arrange a Snorkel adventure</p>
 
 
-            <p className='ms-5'>Los Cabos is home to a number of world renowned restaurants.<br/>
+            <p className='thingstodo-par ms-5'>Los Cabos is home to a number of world renowned restaurants.<br/>
                 Below are a few local favorites and within easy reach for you to explore
             </p>
 
             <div className='ms-5 d-flex'>
                 <div>
-                    <p> 
+                    <p className='thingstodo-par'> 
                         Don Sanchez<br/>
                         Sur beach house<br/>
                         Bagatelle<br/>
@@ -359,7 +403,7 @@ const Home = () => {
                 </div>
 
                 <div className='ms-5'>
-                    <p>
+                    <p className='thingstodo-par'>
                         Flora farms<br/>
                         Acre<br/>
                         La lupita<br/>

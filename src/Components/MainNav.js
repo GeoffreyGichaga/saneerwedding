@@ -13,20 +13,38 @@ const MainNav = () => {
       <Container fluid>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="d-flex justify-content-center">
-            <Nav.Link className='navlinks' href="#">Welcome</Nav.Link>
-            <Nav.Link className='navlinks' href="#">Our Story</Nav.Link>
-            <Nav.Link className='navlinks' href="#">Event Details</Nav.Link>
-            <Nav.Link className='navlinks' href="#">Explore</Nav.Link>
-            <Nav.Link className='navlinks' href="#">Transport</Nav.Link>
-            <Nav.Link className='navlinks' href="#">Questions</Nav.Link>
-          </Nav>
-          {/* <Nav>
-            <Nav.Link className='navlinks' href="#">Explore</Nav.Link>
-            <Nav.Link className='navlinks' href="#">Transport</Nav.Link>
-            <Nav.Link className='navlinks' href="#">Questions</Nav.Link>
 
-          </Nav> */}
+          <Nav className="me-auto">
+              
+            <Nav.Item>
+              <Nav.Link className='navlinks' href="#">Welcome</Nav.Link>
+
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link className='navlinks' href="#">Our Story</Nav.Link>
+
+            </Nav.Item>            
+            <Nav.Item>
+              <Nav.Link className='navlinks' href="#">Event Details</Nav.Link>
+
+            </Nav.Item>            
+            <Nav.Item>
+              <Nav.Link className='navlinks' href="#">Explore</Nav.Link>
+
+            </Nav.Item>            
+            
+            <Nav.Item>
+              <Nav.Link className='navlinks' href="#">Transport</Nav.Link>
+
+            </Nav.Item>           
+            
+            <Nav.Item>
+              <Nav.Link className='navlinks' href="#">Questions</Nav.Link>
+
+            </Nav.Item>          
+          </Nav>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>

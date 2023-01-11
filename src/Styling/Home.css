@@ -212,6 +212,8 @@ font-family: 'Parisienne', cursive;
 .explore-par{
     color: #305376;
     font-family: "Butler-m";
+    font-size: 15pt;
+
 
 
 }
@@ -220,6 +222,8 @@ font-family: 'Parisienne', cursive;
 
 .activities-par{
     color: #305376;
+    font-size: 15pt;
+
 
 
 }
@@ -250,6 +254,12 @@ font-family: 'Parisienne', cursive;
     background-position: left;
     color: #305376;
     font-family: "Butler-m";
+    /* background-position-x: 4%; */
+
+}
+
+.thingstodo-par{
+    font-size: 14pt;
 
 }
 
