@@ -133,8 +133,8 @@ const Home = () => {
     </Container>
 
     {/* Welcome Section */}
-    <Container fluid className='welcome-section mt-4'>
-        <h2 id='Welcome-view' className='welcome-text mt-5 text-center'>Welcome</h2>
+    <Container fluid className='welcome-section'>
+        <h2 id='Welcome-view' className='welcome-text p-5 text-center'>Welcome</h2>
         <Row>
             <Col sm={12} md={12} lg={3} className='flowercol'>
                 <img src={layer9} alt='flower'/>
@@ -166,12 +166,14 @@ const Home = () => {
     <Container id='story-view' fluid className='story2'>
         <h1 className='story-title ms-5'>Our Story</h1>
         <Row className='p-5'>
-            <p className='storyline mt-2'>Neil saw Sareena for the first time at her 1st birthday party <br/>
-                and sparks were flying. He knew immediately <br/>
-                that one day she was going to be his wife.<br/>
-                And the rest is history.
-            </p>
-            <p className='storyline mt-3'><i>False.That would be weird.</i></p>
+            <Col className='mb-sm-5 ' xs={12} sm={12} md={6} lg={12}>
+                <p className='storyline mt-2'>Neil saw Sareena for the first time at her 1st birthday party <br/>
+                    and sparks were flying. He knew immediately <br/>
+                    that one day she was going to be his wife.<br/>
+                    And the rest is history.
+                </p>
+                <p className='storyline mt-3'><i>False.That would be weird.</i></p>
+            </Col>
         </Row>
 
         <Row className='couple2col p-5'>
