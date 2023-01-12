@@ -205,7 +205,22 @@ font-family: 'Parisienne', cursive;
     background-position: center;
 }
 
+.fplant{
+    width: 49%;
+    height: auto;
+}
 
+.couplep-pic{
+    width: 60%;
+    height: auto;
+
+}
+
+.glasses-pic{
+    width: 32%;
+    height: auto;
+
+}
 
 
 /* Explore section */

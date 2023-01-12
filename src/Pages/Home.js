@@ -19,10 +19,6 @@ import layer36 from '../Assets/Layer36.png'
 import layer45 from '../Assets/Layer45.png'
 
 
-import layer44 from '../Assets/Layer44.png'
-import layer19 from '../Assets/Layer19.png'
-
-import layer63 from '../Assets/Layer63.png'
 
 
 import layer30 from '../Assets/Layer30.png'
@@ -52,11 +48,11 @@ import layer58 from '../Assets/Layer58.png'
 import layer60 from '../Assets/Layer60.png'
 
 
+import poolplant from '../Assets/poolplant.png'
 
+import couplep from '../Assets/couplep.png'
 
-
-
-
+import glasses from '../Assets/glasses.png'
 
 
 
@@ -268,9 +264,8 @@ const Home = () => {
     <Row className='timeline p-5'>
         <Col sm={12} md={12} lg={4}>
         <h2 className='dates text-center'>APRIL 13</h2>
-        <div className='d-flex justify-content-center mt-5 mb-5'>
-            <img src={layer44} alt='pool'/>
-            <img src={layer19} alt='plant'/>
+        <div className='d-flex justify-content-center mt-3'>
+            <img className='fplant' src={poolplant} alt='plant'/>
         </div>
         <p className='timeline-title text-center'><i>Welcome Dinner <br/> & Mehndi</i></p>
 
@@ -279,8 +274,8 @@ const Home = () => {
         <Col sm={12} md={12} lg={4}>
         <h2 className='dates text-center'>APRIL 14</h2>
 
-        <div className='dancingcouple d-flex justify-content-center mt-5'>
-            <img src={layer63} alt='dance'/>
+        <div className='d-flex justify-content-center mt-3'>
+            <img className='couplep-pic' src={couplep} alt='dance'/>
         </div>
         <p className='timeline-title text-center'><i>Sangeet <br/> & After Party</i></p>
         </Col>
@@ -288,12 +283,10 @@ const Home = () => {
 
         <Col sm={12} md={12} lg={4}>
         <h2 className='dates text-center'>APRIL 15</h2>
-        <div className='d-flex justify-content-center mt-5 mb-3'>
-            <img src={layer30} alt='rings'/>
-            <div>
-                <img src={layer291} alt='glass1'/>
-                <img src={layer29} alt="glass"/>
-            </div>
+        <div className='d-flex justify-content-center mt-3 mb-3'>
+            
+            <img className='glasses-pic' src={glasses} alt='glass1'/>
+           
         </div>
         <p className='timeline-title text-center'><i>Wedding <br/> & Reception</i></p>
         </Col>
