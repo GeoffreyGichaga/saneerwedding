@@ -114,8 +114,8 @@ font-family: 'Parisienne', cursive;
 .story-title{
     font-family: "JohnDavid";
     font-weight: 800;
-    /* margin-top: 120%;
-    margin-left: 70%; */
+    margin-left: 4%;
+    margin-top: 7%;
 }
 
 .couple2col{
@@ -161,6 +161,10 @@ font-family: 'Parisienne', cursive;
     background-position: right;
     background-position-y: -10%;
 }
+
+/* .story-row{
+    margin-left: 50%;
+} */
 
 
 
@@ -221,6 +225,12 @@ font-family: 'Parisienne', cursive;
     height: auto;
 
 }
+
+.clear-btns{
+    background-color: #7ddbdf;
+    color: #305376;
+
+    border: none;}
 
 
 /* Explore section */

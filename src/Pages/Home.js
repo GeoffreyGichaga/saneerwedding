@@ -160,8 +160,8 @@ const Home = () => {
 
     {/* Our Story Section  */}
     <Container id='story-view' fluid className='story2'>
-        <h1 className='story-title ms-5'>Our Story</h1>
-        <Row className='p-5'>
+        <h1 className='story-title'>Our Story</h1>
+        <Row className='story-row p-5'>
             <Col className='mb-sm-5 ' xs={12} sm={12} md={6} lg={12}>
                 <p className='storyline mt-2'>Neil saw Sareena for the first time at her 1st birthday party <br/>
                     and sparks were flying. He knew immediately <br/>
@@ -268,7 +268,10 @@ const Home = () => {
             <img className='fplant' src={poolplant} alt='plant'/>
         </div>
         <p className='timeline-title text-center'><i>Welcome Dinner <br/> & Mehndi</i></p>
+        <div className='d-flex justify-content-center'>
+            <Button className='clear-btns'>Learn more </Button>
 
+        </div>
         </Col>
 
         <Col sm={12} md={12} lg={4}>
@@ -278,6 +281,10 @@ const Home = () => {
             <img className='couplep-pic' src={couplep} alt='dance'/>
         </div>
         <p className='timeline-title text-center'><i>Sangeet <br/> & After Party</i></p>
+        <div className='d-flex justify-content-center'>
+            <Button className='clear-btns'>Learn more </Button>
+
+        </div>
         </Col>
 
 
@@ -289,6 +296,10 @@ const Home = () => {
            
         </div>
         <p className='timeline-title text-center'><i>Wedding <br/> & Reception</i></p>
+        <div className='d-flex justify-content-center'>
+            <Button className='clear-btns'>Learn more </Button>
+
+        </div>
         </Col>
     </Row>
     </Container>
