@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 
 import '../Styling/Home.css'
@@ -53,6 +53,9 @@ import poolplant from '../Assets/poolplant.png'
 import couplep from '../Assets/couplep.png'
 
 import glasses from '../Assets/glasses.png'
+import Dinner from '../Components/Dinner'
+import Party from '../Components/Party'
+import Reception from '../Components/Reception'
 
 
 
@@ -66,6 +69,31 @@ import glasses from '../Assets/glasses.png'
 
 
 const Home = () => {
+
+    const [show,setShow] = useState(false)
+
+
+    const handleShow = ()=>{setShow(true)}
+
+    const handleHide = ()=>{setShow(false)}
+
+
+    const [show1,setShow1] = useState(false)
+
+
+    const handleShow1 = ()=>{setShow1(true)}
+
+    const handleHide1 = ()=>{setShow1(false)}
+
+
+
+    const [show2,setShow2] = useState(false)
+
+
+    const handleShow2 = ()=>{setShow2(true)}
+
+    const handleHide2 = ()=>{setShow2(false)}
+   
 
   return (
     <>
@@ -269,7 +297,8 @@ const Home = () => {
         </div>
         <p className='timeline-title text-center'><i>Welcome Dinner <br/> & Mehndi</i></p>
         <div className='d-flex justify-content-center'>
-            <Button className='clear-btns'>Learn more </Button>
+            <Button onClick={handleShow} className='clear-btns'>Learn more </Button>
+            <Dinner status={show} onClose={handleHide}/>
 
         </div>
         </Col>
@@ -282,7 +311,8 @@ const Home = () => {
         </div>
         <p className='timeline-title text-center'><i>Sangeet <br/> & After Party</i></p>
         <div className='d-flex justify-content-center'>
-            <Button className='clear-btns'>Learn more </Button>
+        <Button onClick={handleShow1} className='clear-btns'>Learn more </Button>
+            <Party status={show1} onClose={handleHide1}/>
 
         </div>
         </Col>
@@ -297,7 +327,8 @@ const Home = () => {
         </div>
         <p className='timeline-title text-center'><i>Wedding <br/> & Reception</i></p>
         <div className='d-flex justify-content-center'>
-            <Button className='clear-btns'>Learn more </Button>
+        <Button onClick={handleShow2} className='clear-btns'>Learn more </Button>
+            <Reception status={show2} onClose={handleHide2}/>
 
         </div>
         </Col>
