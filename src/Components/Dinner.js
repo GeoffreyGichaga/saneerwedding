@@ -18,10 +18,15 @@ const Dinner = ({status,onClose}) => {
         <Modal.Header closeButton>
           <Modal.Title className='title'>Welcome Dinner & Mehndi</Modal.Title>
         </Modal.Header>
-        <Modal.Body className='d-flex justify-content-center'>
-            <div>
-            <img className='w-75' src={dinner} alt='dinner'/>
-            <img className='w-75' src={hollywood} alt='dinner'/>
+        <Modal.Body>
+            <div className='d-flex justify-content-center'>
+              <img className='w-75' src={dinner} alt='dinner'/>
+              {/* <img className='w-75' src={hollywood} alt='dinner'/> */}
+            </div>
+
+            <div className='d-flex justify-content-center'>
+              {/* <img className='w-75' src={dinner} alt='dinner'/> */}
+              <img className='w-75' src={hollywood} alt='dinner'/>
             </div>
 
         </Modal.Body>

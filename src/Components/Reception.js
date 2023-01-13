@@ -17,12 +17,13 @@ const Reception = ({status,onClose}) => {
         <Modal.Header closeButton>
           <Modal.Title className='title'>Wedding & Reception</Modal.Title>
         </Modal.Header>
-        <Modal.Body className='d-flex justify-content-center'>
-          <div>
+        <Modal.Body>
+          <div className='d-flex justify-content-center'>
             <img className='w-75' src={wedding} alt='dinner'/>
+          </div>
+
+          <div className='d-flex justify-content-center'>
             <img className='w-75' src={paris} alt='dinner'/>
-
-
           </div>
         </Modal.Body>
     </Modal>

@@ -20,12 +20,13 @@ const Party = ({status,onClose}) => {
         <Modal.Header closeButton>
           <Modal.Title className='title'>Sangeet & After Party</Modal.Title>
         </Modal.Header>
-        <Modal.Body className='d-flex justify-content-center'>
-          <div>
+        <Modal.Body>
+          <div className='d-flex justify-content-center'>
             <img className='w-75' src={disco} alt='dinner'/>
+          </div>
+
+          <div className='d-flex justify-content-center'>
             <img className='w-75' src={dubai} alt='dinner'/>
-
-
           </div>
         </Modal.Body>
     </Modal>
