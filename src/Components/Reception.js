@@ -19,11 +19,11 @@ const Reception = ({status,onClose}) => {
         </Modal.Header>
         <Modal.Body>
           <div className='d-flex justify-content-center'>
-            <img className='w-75' src={wedding} alt='dinner'/>
+            <img className='w-100' src={wedding} alt='dinner'/>
           </div>
 
           <div className='d-flex justify-content-center'>
-            <img className='w-75' src={paris} alt='dinner'/>
+            <img className='w-100' src={paris} alt='dinner'/>
           </div>
         </Modal.Body>
     </Modal>
