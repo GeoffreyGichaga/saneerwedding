@@ -297,7 +297,7 @@ const Home = () => {
         </div>
         <p className='timeline-title text-center'><i>Welcome Dinner <br/> & Mehndi</i></p>
         <div className='d-flex justify-content-center'>
-            <Button onClick={handleShow} className='clear-btns'>Learn more </Button>
+            <Button onClick={handleShow} className='clear-btns'>More details </Button>
             <Dinner status={show} onClose={handleHide}/>
 
         </div>
@@ -311,7 +311,7 @@ const Home = () => {
         </div>
         <p className='timeline-title text-center'><i>Sangeet <br/> & After Party</i></p>
         <div className='d-flex justify-content-center'>
-        <Button onClick={handleShow1} className='clear-btns'>Learn more </Button>
+        <Button onClick={handleShow1} className='clear-btns'>More details </Button>
             <Party status={show1} onClose={handleHide1}/>
 
         </div>
@@ -327,7 +327,7 @@ const Home = () => {
         </div>
         <p className='timeline-title text-center'><i>Wedding <br/> & Reception</i></p>
         <div className='d-flex justify-content-center'>
-        <Button onClick={handleShow2} className='clear-btns'>Learn more </Button>
+        <Button onClick={handleShow2} className='clear-btns'>More details </Button>
             <Reception status={show2} onClose={handleHide2}/>
 
         </div>

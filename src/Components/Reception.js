@@ -17,7 +17,7 @@ const Reception = ({status,onClose}) => {
         <Modal.Header closeButton>
           <Modal.Title className='title'>Wedding & Reception</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body id='modal1'>
           <div className='d-flex justify-content-center'>
             <img className='w-100' src={wedding} alt='dinner'/>
           </div>

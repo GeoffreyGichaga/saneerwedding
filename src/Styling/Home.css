@@ -41,9 +41,17 @@ font-family: 'Parisienne', cursive;
 }
 .couple-names {
     font-family: "Butler-m";
+    font-weight: bolder;
 
 }
+.hashtag{
+    /* color: #305376; */
+    font-family: "Butler-m";
+    font-size: 18pt;
+    font-weight: bolder;
 
+
+}
 
 
 /* .behind-logo {
