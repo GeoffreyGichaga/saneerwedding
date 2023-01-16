@@ -5,7 +5,9 @@ font-family: 'Parisienne', cursive;
 
 */
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Parisienne&display=swap');
-
+*{
+    /* overflow-x: hidden; */
+}
 /* Navbar */
 .navlinks{
     color: #305376;
@@ -377,3 +379,56 @@ font-family: 'Parisienne', cursive;
 
 
 }
+
+
+
+
+
+
+
+
+
+
+/* Passwordm page */
+
+.login{
+    background-image: url("../Assets/passwordback.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.row1{
+  
+    position: relative;
+}
+
+
+
+.col1{
+    position: absolute;
+    top: 25rem;
+    left: 30rem;
+
+
+}
+
+.form1{
+    font-family: "Butler-m";
+    font-size: 14pt;
+
+}
+#submit-btn{
+    background-color: #7ddbdf;
+    border: none;
+
+}
+#submit-btn:focus{
+    border: none;
+}
+
