@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/esm/Col'
 import Row from 'react-bootstrap/Row'
 import Form from 'react-bootstrap/Form';
 import { useNavigate } from 'react-router-dom';
+import Alert from 'react-bootstrap/Alert'
 
 import PasswordAlert from '../Components/PasswordAlert';
 
@@ -16,10 +17,14 @@ const Password = () => {
 
    
 
-    const [showAlert,setShowAlert] = useState(true)
-    
-    
+    const [showAlert,setShowAlert] = useState(false)
 
+    const enterPwd = ()=>(
+        <Alert show={false} variant="success">
+            Enter Password!!!!
+
+        </Alert>
+    )
   return (
     <Container fluid className='login'>
         <Row className='row1'>
