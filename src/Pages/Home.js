@@ -98,7 +98,7 @@ const Home = () => {
   return (
     <>
     {/* Navbar */}
-    <Navbar collapseOnSelect expand="lg"  bg="none">
+    <Navbar collapseOnSelect expand="lg"  bg="light">
       <Container fluid >
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -196,15 +196,15 @@ const Home = () => {
                     that one day she was going to be his wife.<br/>
                     And the rest is history.
                 </p>
-                <p className='storyline mt-3'><i>False.That would be weird.</i></p>
             </Col>
         </Row>
+        <p className='storyline mt-3'><i>False. <span className='whitetext'>he</span> That would be weird.</i></p>
 
-        <Row className='couple2col p-5'>
+        <Row className='couple2col'>
             <Col  sm={12} md={6} lg={3}>
                 <img className='w-50' src={layer36} alt='couple'/>
             </Col>
-            <Col sm={12} md={6} lg={8}>
+            <Col sm={12} md={6} lg={6}>
                 <p className='longstory'>
                 He actually thought to himself “when is this baby’s party going <br/>
                 to be over so I can go home and play with my friends?” <br/>
@@ -213,7 +213,7 @@ const Home = () => {
             
                 </p>
 
-                <p className='longstory'>Then for the next 22 years it would become the longest “friend zone”in history. <br/>
+                <p className='longstory'>Then for the next 22 years it would become the longest “friend <span className='whitetext'>he</span> zone”in history. <br/>
                 They would see each other here and there for Diwali (Hindu new year),<br/>
                 family friend dinners, birthday parties etc., stealing a glance every now and then,<br/>
                 thinking “what if...” but then always leading their own separate lives.
@@ -287,8 +287,8 @@ const Home = () => {
     <Container fluid>
     {/* Heading */}
 
-    <h1 className='details-title text-center'>Event Details</h1>
-    <p className='details-par text-center'>As the event detais will be sent shortly ,Here is a small preview of what is to come</p>
+    <h1 className='details-title text-center'>Event <span className='whitetext'>he</span> Details</h1>
+    {/* <p className='details-par text-center'>As the event detais will be sent shortly ,Here is a small preview of what is to come</p> */}
 
     <Row className='timeline p-5'>
         <Col sm={12} md={12} lg={4}>
@@ -348,9 +348,8 @@ const Home = () => {
             situated in the heart of San Jose del Cabo. You can enjoy the traditional, authentic Mexican<br/>
             downtown area offering an abundance of things to do, including visiting the Mission Site, browsing<br/>
             international art galleries, enjoying the nightlife and wonderful boutique shops, and, of course,<br/>
-            tasting the world-famous culinary tourism specialized in Baja California fusions<br/>
+            tasting the world-famous culinary tourism specialized in Baja California fusions.<br/>
 
-            Activities at the Hotel
             </p>
         </Row>
 
@@ -365,7 +364,7 @@ const Home = () => {
 
 
             <Col sm={12} md={6} lg={9}>
-            <p className='activities-par'>A Masterpiece in 27 Holes</p>
+            <p className='activities-titles'>A Masterpiece in 27 Holes</p>
             <p className='activities-par'>
                 One of the most unique golf experiences in all of Los Cabos with stunning views of the Sea of <br/>
                 Cortez from 70% of the golf course. With two comfort stations on each 9 serving food and <br/>
@@ -378,15 +377,14 @@ const Home = () => {
 
         <Row className='activities-section'>
             <Col sm={12} md={6} lg={9}>
-                <p className='activities-par text-end'>Jasha Spa</p>
-
+                <p className='activities-titles text-end'>Jasha Spa</p>
                 <p className='activities-par text-end'>Jasha Spa, the hotel’s resort spa in San Jose del Cabo and the most luxurious in Los Cabos,<br/>
                 offers many blissful services daily to take your increase your leisure. Services include hair and<br/>
                 scalp treatments, massages, indoor pools, jacuzzis and more.<br/>
                 Please contact the Spa directly for your appointments at Extension #2061.<br/>
                 Wedding rate offers you 20% discount</p>
 
-                <p className='activities-par text-end'>Jasha Beauty Salon</p>
+                <p className='activities-titles text-end'>Jasha Beauty Salon</p>
                 <p className='activities-par text-end'>We'll update the hair & makeup information as we get closer.</p>
             </Col>
 
@@ -403,13 +401,15 @@ const Home = () => {
             </Col>
 
             <Col sm={12} md={6} lg={9}>
-            <p className='activities-par text-start'>Nayaa Kids Club</p>
+            <p className='activities-titles text-start'>Nayaa Kids Club</p>
             <p className='activities-par text-start'>
-                Timings - 9:00 am through 17:00 pm<br/>
+                Timings - 9:00 am through 5:00 pm<br/>
                 For more information, you may contact the Kids Club at Ext. 2050 <br/>
                 For children under the age of four, please contact the Concierge at Ext. 2016 to assist you with a<br/>
                 Baby Sitting service.
+                
             </p>
+            <p className='activities-par text-start'>All Events are Invites Only</p>
             </Col>
         </Row>
 
@@ -449,61 +449,61 @@ const Home = () => {
 
 
             <Col className='thingstodo-col' sm={12} md={6} lg={9}>
-            <p className='thingstodo-par mt-5'>Tucked away on the southern tip of Baja California, the sizzling resort city<br/>
-                of Cabo San Lucas is beach heaven. Plunge into the inviting blue waters<br/>
-                in search of tropical fish, or sail around the coast for secluded coves.<br/>
-                Energetic travelers love exploring the wild canyons and deserts,<br/>
-                while foodies can sink their teeth into lip-smacking Mexican cuisine<br/>
-                on a culinary adventure.
-            </p>
-            
-
-            <div className='thingstodo-2'>
-                <p className='thingstodo-par ms-5'>Visit Lands End</p>
-                <p className='thingstodo-par ms-5'>
-                    Journey to the edge of the world with a trip to the extreme southern point<br/>
-                    of Baja California — Mexico’s Land’s End<br/>
-                    The main event is El Arco, a magnificent sea arch that deserves<br/>
-                    pride of place in your photo collection. The easiest way to visit is by boat.
+                <p className='thingstodo-par text-start mt-5'>Tucked away on the southern tip of Baja California, the sizzling resort city<br/>
+                    of Cabo San Lucas is beach heaven. Plunge into the inviting blue waters<br/>
+                    in search of tropical fish, or sail around the coast for secluded coves.<br/>
+                    Energetic travelers love exploring the wild canyons and deserts,<br/>
+                    while foodies can sink their teeth into lip-smacking Mexican cuisine<br/>
+                    on a culinary adventure.
                 </p>
-            </div>
+                
 
-
-            <p className='thingstodo-par ms-5'>Discover charming San Jose del Cabo<br/>
-                Soak up the small-town vibe of San José del Cabo, as you stroll through <br/>
-                the laid-back city streets. For your history fix, head to Plaza Mijares in<br/>
-                the heart of the old district and admire the colorful colonial buildings.<br/>
-                Best explored on foot, San José is the place to go for art galleries,<br/>
-                street entertainment and outdoor diningon locally caught seafood
-
-            </p>
-            <p className='thingstodo-par ms-5'>Fly high on a parasailing adventure or arrange a Snorkel adventure</p>
-
-
-            <p className='thingstodo-par ms-5'>Los Cabos is home to a number of world renowned restaurants.<br/>
-                Below are a few local favorites and within easy reach for you to explore
-            </p>
-
-            <div className='ms-5 d-flex'>
-                <div>
-                    <p className='thingstodo-par'> 
-                        Don Sanchez<br/>
-                        Sur beach house<br/>
-                        Bagatelle<br/>
-                        Comal<br/>
+                <div className='thingstodo-2'>
+                    <p className='things-titles text-start ms-5'>Visit Lands End</p>
+                    <p className='thingstodo-par text-start ms-5'>
+                        Journey to the edge of the world with a trip to the extreme southern point<br/>
+                        of Baja California — Mexico’s Land’s End<br/>
+                        The main event is El Arco, a magnificent sea arch that deserves<br/>
+                        pride of place in your photo collection. The easiest way to visit is by boat.
                     </p>
                 </div>
 
-                <div className='ms-5'>
-                    <p className='thingstodo-par'>
-                        Flora farms<br/>
-                        Acre<br/>
-                        La lupita<br/>
-                        Jardin secreto<br/>
-                        Ruba’s bakery 
-                    </p>
+                <p className='things-titles text-start ms-5'>Discover charming San Jose del Cabo</p>
+                <p className='thingstodo-par text-start ms-5'>
+                    Soak up the small-town vibe of San José del Cabo, as you stroll through <br/>
+                    the laid-back city streets. For your history fix, head to Plaza Mijares in<br/>
+                    the heart of the old district and admire the colorful colonial buildings.<br/>
+                    Best explored on foot, San José is the place to go for art galleries,<br/>
+                    street entertainment and outdoor dining on locally caught seafood.
+
+                </p>
+                <p className='things-titles text-start ms-5'>Fly high on a parasailing adventure or arrange a Snorkel adventure.</p>
+
+
+                <p className='thingstodo-par text-start ms-5'>Los Cabos is home to a number of world renowned restaurants.<br/>
+                    Below are a few local favorites and within easy reach for you to explore.
+                </p>
+
+                <div className='ms-5 d-flex'>
+                    <div>
+                        <p className='thingstodo-par text-start'> 
+                            Don Sanchez<br/>
+                            Sur beach house<br/>
+                            Bagatelle<br/>
+                            Comal<br/>
+                        </p>
+                    </div>
+
+                    <div className='ms-5'>
+                        <p className='thingstodo-par text-start'>
+                            Flora farms<br/>
+                            Acre<br/>
+                            La lupita<br/>
+                            Jardin secreto<br/>
+                            Ruba’s bakery 
+                        </p>
+                    </div>
                 </div>
-            </div>
             </Col>
 
         </Row>
