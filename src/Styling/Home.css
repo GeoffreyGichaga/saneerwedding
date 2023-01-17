@@ -27,7 +27,7 @@ font-family: 'Parisienne', cursive;
     background-image: url("../Assets/back.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50%;
+    height: 40%;
 }
 .logo{
     width: 25%;
@@ -394,7 +394,7 @@ font-family: 'Parisienne', cursive;
 .login{
     background-image: url("../Assets/passwordback.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     content: "";
     top: 0;
     left: 0;
