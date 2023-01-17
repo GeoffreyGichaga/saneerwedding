@@ -111,11 +111,11 @@ const Home = () => {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link className='navlinks ms-5' href="#story-view">Our Story</Nav.Link>
+              <Nav.Link className='navlinks ms-5' href="#story-title">Our Story</Nav.Link>
 
             </Nav.Item>            
             <Nav.Item>
-              <Nav.Link className='navlinks ms-5' href="#event-view">Event Details</Nav.Link>
+              <Nav.Link className='navlinks ms-5' href="#event">Event Details</Nav.Link>
 
             </Nav.Item>  
         
@@ -185,7 +185,7 @@ const Home = () => {
 
 
 
-
+    <div id='story-title'></div>
     {/* Our Story Section  */}
     <Container id='story-view' fluid className='story2'>
         <h1 className='story-title'>Our Story</h1>
@@ -276,14 +276,15 @@ const Home = () => {
 
 
         </Row>
+
     </Container>
 
 
 
 
-
     {/* Event Details */}
-    <Container id='event-view' fluid>
+    <div id='event' className='mb-5'></div>
+    <Container fluid>
     {/* Heading */}
 
     <h1 className='details-title text-center'>Event Details</h1>
@@ -338,7 +339,8 @@ const Home = () => {
 
 
     {/* Explore */}
-    <Container id='explore-view' fluid>
+    <div id='explore-view'></div>
+    <Container fluid>
         <h1 className='explore-title text-center mt-4'>Exploring Los Cabos</h1>
         <Row className='mt-5'>
             <p className='explore-par text-center'>
@@ -512,7 +514,8 @@ const Home = () => {
 
 
     {/* Transport */}
-    <Container id='transport-view' className='transport mt-5'>
+    <div id='transport-view'></div>
+    <Container className='transport mt-5'>
         <h1 className='transport-title text-center'>Transport</h1>
         <p className='text-center mt-4'>
             SJD airport is about 25 minutes away from the JW Marriot Resort.<br/>
@@ -529,8 +532,8 @@ const Home = () => {
 
 
     {/* Question */}
-
-    <Container id='question-view' className='question mt-5'>
+    <div id='question-view'></div>
+    <Container className='question mt-5'>
         <h1 className='questions text-center mt-5'>Any Questions</h1>
         <p className='text-center mt-4'> Please contact the families or our event planner at the emails below:</p>
         <p className='text-center'>Sakhrani Family - NeilandSareena@gmail.com<br/>

@@ -37,6 +37,8 @@ const Password = () => {
                         onChange={(e)=> e.target.value === "nscabo23." ? navigate("/home") : setShowAlert(true)} 
                         type="text" placeholder="Password" />
                     </Form.Group>
+
+                    
                     {/* <Button onClick={passwordChecker}  id='submit-btn' type="submit">
                         Submit
                     </Button> */}
