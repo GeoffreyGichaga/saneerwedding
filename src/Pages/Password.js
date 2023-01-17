@@ -34,7 +34,7 @@ const Password = () => {
                     <Form.Group className="mb-3 pt-3" controlId="formBasicPassword">
                         <Form.Label>Password</Form.Label>
                         <Form.Control  
-                        onChange={(e)=> e.target.value === "nscabo23." ? navigate("/home") : setShowAlert(true)} 
+                        onChange={(e)=> e.target.value === "nscabo2023" ? navigate("/home") : setShowAlert(true)} 
                         type="text" placeholder="Password" />
                     </Form.Group>
 
