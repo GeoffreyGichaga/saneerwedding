@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import Alert from 'react-bootstrap/Alert'
 
 import PasswordAlert from '../Components/PasswordAlert';
-
+import Button from 'react-bootstrap/Button'
 
 
 const Password = () => {
@@ -15,33 +15,50 @@ const Password = () => {
 
    
 
-   
 
     const [showAlert,setShowAlert] = useState(false)
+    const [pswd,setPswd] = useState("")
 
-    // const enterPwd = ()=>(
-    //     <Alert show={false} variant="success">
-    //         Enter Password!!!!
+    const handleSubmit=()=>{
+        const pass = "nscabo2023"
 
-    //     </Alert>
-    // )
+        if(pass === pswd){
+            navigate("/home")
+        }
+        else{
+            setShowAlert(true)
+
+        }
+        
+    }
+
+   
+   
   return (
     <Container fluid className='login'>
-        <Row className='row1'>
+        <Row className='row1 mt-5 ms-5'>
             <PasswordAlert status={showAlert}/>
             <Col className='col1' sm={12} md={6} lg={3}>
                 <Form className='form1 mt-4'>
-                    <Form.Group className="mb-3 pt-3" controlId="formBasicPassword">
+                    {/* <Form.Group className="mb-3 pt-3" controlId="formBasicPassword">
                         <Form.Label>Password</Form.Label>
                         <Form.Control  
                         onChange={(e)=> e.target.value === "nscabo2023" ? navigate("/home") : setShowAlert(true)} 
                         type="text" placeholder="Password" />
+                    </Form.Group> */}
+
+                     <Form.Group className="mb-3 pt-3" controlId="formBasicPassword">
+                        <Form.Label>Password</Form.Label>
+                        <Form.Control 
+                        value={pswd}
+                        onChange={(e)=> setPswd(e.target.value)} 
+                        type="password" placeholder="Password" />
                     </Form.Group>
 
                     
-                    {/* <Button onClick={passwordChecker}  id='submit-btn' type="submit">
+                    <Button onClick={handleSubmit}  id='submit-btn' type="submit">
                         Submit
-                    </Button> */}
+                    </Button>
                 </Form>
 
             </Col>
