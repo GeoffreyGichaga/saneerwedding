@@ -98,24 +98,24 @@ const Home = () => {
   return (
     <>
     {/* Navbar */}
-    <Navbar collapseOnSelect expand="lg"  bg="light">
+    <Navbar collapseOnSelect expand="lg"  bg="dark">
       <Container fluid >
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
 
-          <Nav className='mx-auto'>
+          <Nav  className='nav-items mx-auto'>
               
             <Nav.Item>
-              <Nav.Link className='navlinks' href="#Welcome-view">Welcome</Nav.Link>
+              <Nav.Link id='nav-items1' className='navlinks' href="#Welcome-view">Welcome</Nav.Link>
 
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link className='navlinks ms-5' href="#story-title">Our Story</Nav.Link>
+              <Nav.Link id='nav-items2' className='navlinks ms-5' href="#story-title">Our Story</Nav.Link>
 
             </Nav.Item>            
             <Nav.Item>
-              <Nav.Link className='navlinks ms-5' href="#event">Event Details</Nav.Link>
+              <Nav.Link id='nav-items3' className='navlinks ms-5' href="#event">Event Details</Nav.Link>
 
             </Nav.Item>  
         
@@ -123,17 +123,17 @@ const Home = () => {
 
           <Nav className='mx-auto'>
             <Nav.Item>
-                <Nav.Link className='navlinks ms-5' href="#explore-view">Explore</Nav.Link>
+                <Nav.Link id='nav-items4' className='navlinks ms-5' href="#explore-view">Explore</Nav.Link>
 
               </Nav.Item>            
               
               <Nav.Item>
-                <Nav.Link className='navlinks ms-5' href="#transport-view">Transport</Nav.Link>
+                <Nav.Link id='nav-items5' className='navlinks ms-5' href="#transport-view">Transport</Nav.Link>
 
               </Nav.Item>           
               
               <Nav.Item>
-                <Nav.Link className='navlinks ms-5' href="#question-view">Questions</Nav.Link>
+                <Nav.Link id='nav-items6' className='navlinks ms-5' href="#question-view">Questions</Nav.Link>
 
               </Nav.Item>  
           </Nav>

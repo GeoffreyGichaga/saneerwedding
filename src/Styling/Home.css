@@ -13,9 +13,23 @@ font-family: 'Parisienne', cursive;
 }
 /* Navbar */
 .navlinks{
-    color: #305376;
+    color: whitesmoke;
     font-weight: bold;
     font-family: "Butler-m";
+
+}
+
+#nav-items1,#nav-items2,#nav-items3,#nav-items4,
+#nav-items5,#nav-items6{
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: "Butler-m";
+
+}
+#nav-items1:hover,#nav-items2:hover,#nav-items3:hover,
+#nav-items4:hover,
+#nav-items5:hover,#nav-items6:hover{
+    color: #7ddbdf;
 
 }
 
