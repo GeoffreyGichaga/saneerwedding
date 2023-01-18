@@ -19,18 +19,18 @@ const Password = () => {
 
     const [showAlert,setShowAlert] = useState(false)
 
-    const enterPwd = ()=>(
-        <Alert show={false} variant="success">
-            Enter Password!!!!
+    // const enterPwd = ()=>(
+    //     <Alert show={false} variant="success">
+    //         Enter Password!!!!
 
-        </Alert>
-    )
+    //     </Alert>
+    // )
   return (
     <Container fluid className='login'>
         <Row className='row1'>
             <PasswordAlert status={showAlert}/>
             <Col className='col1' sm={12} md={6} lg={3}>
-                <Form className='form1'>
+                <Form className='form1 mt-4'>
                     <Form.Group className="mb-3 pt-3" controlId="formBasicPassword">
                         <Form.Label>Password</Form.Label>
                         <Form.Control  
