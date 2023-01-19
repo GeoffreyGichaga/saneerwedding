@@ -5,3 +5,10 @@
     font-size: 18pt;
 }
 
+#back-btns1,#back-btns2,#back-btns3{
+    background-color: #7ddbdf;
+    font-family: "Butler-m";
+    color: black;
+    border: none;
+
+}

@@ -198,7 +198,7 @@ const Home = () => {
                 </p>
             </Col>
         </Row>
-        <p className='storyline mt-3'><i>False. <span className='whitetext'>he</span> That would be weird.</i></p>
+        <p className='storyline mt-3'><i>False.<span className='whitetext'>h</span>That would be weird.</i></p>
 
         <Row className='couple2col'>
             <Col  sm={12} md={6} lg={3}>
@@ -213,7 +213,7 @@ const Home = () => {
             
                 </p>
 
-                <p className='longstory'>Then for the next 22 years it would become the longest “friend <span className='whitetext'>he</span> zone”in history. <br/>
+                <p className='longstory'>Then for the next 22 years it would become the longest “friend zone” in history. <br/>
                 They would see each other here and there for Diwali (Hindu new year),<br/>
                 family friend dinners, birthday parties etc., stealing a glance every now and then,<br/>
                 thinking “what if...” but then always leading their own separate lives.
@@ -296,7 +296,7 @@ const Home = () => {
         <div className='d-flex justify-content-center mt-3'>
             <img className='fplant' src={poolplant} alt='plant'/>
         </div>
-        <p className='timeline-title text-center'><i>Welcome Dinner <br/> & Mehndi</i></p>
+        <p className='timeline-title text-center mt-2'><i>Welcome Dinner <br/> & Mehndi</i></p>
         <div className='d-flex justify-content-center'>
             <Button onClick={handleShow} className='clear-btns'>More details </Button>
             <Dinner status={show} onClose={handleHide}/>
@@ -310,7 +310,7 @@ const Home = () => {
         <div className='d-flex justify-content-center mt-3'>
             <img className='couplep-pic' src={couplep} alt='dance'/>
         </div>
-        <p className='timeline-title text-center'><i>Sangeet <br/> & After Party</i></p>
+        <p className='timeline-title text-center mt-1'><i>Sangeet <br/> & After Party</i></p>
         <div className='d-flex justify-content-center'>
         <Button onClick={handleShow1} className='clear-btns'>More details </Button>
             <Party status={show1} onClose={handleHide1}/>
@@ -333,6 +333,8 @@ const Home = () => {
 
         </div>
         </Col>
+        <p className='explore-par mt-1'>All Events are for Invitees Only</p>
+
     </Row>
     </Container>
 
@@ -409,7 +411,7 @@ const Home = () => {
                 Baby Sitting service.
                 
             </p>
-            <p className='activities-par text-start'>All Events are Invites Only</p>
+            <p className='activities-par text-start'>All Events are for Invites Only</p>
             </Col>
         </Row>
 

@@ -20,7 +20,7 @@ const Password = () => {
     const [pswd,setPswd] = useState("")
 
     const handleSubmit=()=>{
-        const pass = "nscabo2023"
+        const pass = "nscabo23"
 
         if(pass === pswd){
             navigate("/home")
