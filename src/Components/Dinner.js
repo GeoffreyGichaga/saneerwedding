@@ -9,6 +9,14 @@ import hollywood from '../Assets/hollywood.png'
 import Button from 'react-bootstrap/esm/Button';
 
 
+
+import disco from '../Assets/disco.jpeg'
+import dubai from '../Assets/dubai.png'
+
+
+import wedding from '../Assets/wedding.png'
+import paris from '../Assets/paris.png'
+ 
 const Dinner = ({status,onClose}) => {
 
     
@@ -30,6 +38,28 @@ const Dinner = ({status,onClose}) => {
               {/* <img className='w-75' src={dinner} alt='dinner'/> */}
               <img className='w-100' src={hollywood} alt='dinner'/>
             </div>
+
+
+
+
+          {/* Sangeet & After party */}
+            <div className='d-flex justify-content-center'>
+            <img className='w-100' src={disco} alt='dinner'/>
+          </div> 
+
+          <div className='d-flex justify-content-center'>
+            <img className='dubai ms-5' src={dubai} alt='dinner'/>
+          </div>
+
+          {/* Reception */}
+
+          <div className='d-flex justify-content-center'>
+            <img className='w-100' src={wedding} alt='dinner'/>
+          </div>
+
+          <div className='d-flex justify-content-center'>
+            <img className='w-100' src={paris} alt='dinner'/>
+          </div>
 
         </Modal.Body>
     </Modal>

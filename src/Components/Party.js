@@ -32,7 +32,7 @@ const Party = ({status,onClose}) => {
         <Modal.Body>
           <div className='d-flex justify-content-center'>
             <img className='w-100' src={disco} alt='dinner'/>
-          </div>
+          </div> 
 
           <div className='d-flex justify-content-center'>
             <img className='dubai ms-5' src={dubai} alt='dinner'/>

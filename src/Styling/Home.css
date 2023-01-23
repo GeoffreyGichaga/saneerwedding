@@ -392,8 +392,10 @@ font-family: 'Parisienne', cursive;
 #book-btn{
     background-color: #7ddbdf;
     color: #305376;
-
+    border-radius: 5px;
     border: none;
+    padding: 5px;
+    text-decoration: none;
 }
 
 

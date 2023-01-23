@@ -1,4 +1,5 @@
-import React, { useState,useNavigate } from 'react'
+import React, { useState } from 'react'
+
 
 
 import '../Styling/Home.css'
@@ -97,12 +98,7 @@ const Home = () => {
 
 
 
-    // Airport Booking
-    const navigate = useNavigate()
-    const handleBooking = ()=> {
-        navigate("https://lizzy5.wixsite.com/website-4")
-        
-    }
+   
    
 
   return (
@@ -307,11 +303,11 @@ const Home = () => {
             <img className='fplant' src={poolplant} alt='plant'/>
         </div>
         <p className='timeline-title text-center mt-2'><i>Welcome Dinner <br/> & Mehndi</i></p>
-        <div className='d-flex justify-content-center'>
+        {/* <div className='d-flex justify-content-center'>
             <Button onClick={handleShow} className='clear-btns'>More details </Button>
             <Dinner status={show} onClose={handleHide}/>
 
-        </div>
+        </div> */}
         </Col>
 
         <Col sm={12} md={12} lg={4}>
@@ -321,11 +317,11 @@ const Home = () => {
             <img className='couplep-pic' src={couplep} alt='dance'/>
         </div>
         <p className='timeline-title text-center mt-1'><i>Sangeet <br/> & After Party</i></p>
-        <div className='d-flex justify-content-center'>
+        {/* <div className='d-flex justify-content-center'>
         <Button onClick={handleShow1} className='clear-btns'>More details </Button>
             <Party status={show1} onClose={handleHide1}/>
 
-        </div>
+        </div> */}
         </Col>
 
 
@@ -337,15 +333,20 @@ const Home = () => {
            
         </div>
         <p className='timeline-title text-center'><i>Wedding <br/> & Reception</i></p>
-        <div className='d-flex justify-content-center'>
+        {/* <div className='d-flex justify-content-center'>
         <Button onClick={handleShow2} className='clear-btns'>More details </Button>
             <Reception status={show2} onClose={handleHide2}/>
 
-        </div>
+        </div> */}
         </Col>
         <p className='explore-par mt-1'>All Events are for Invitees Only</p>
+        <div className='d-flex justify-content-center'>
+        <Button onClick={handleShow} className='clear-btns'>More details </Button>
+            <Dinner status={show} onClose={handleHide}/>
 
+        </div>
     </Row>
+    
     </Container>
 
 
@@ -536,7 +537,7 @@ const Home = () => {
             details to book your transport service directly with them.
         </p>
         <div className='d-flex justify-content-center'>
-            <Button onClick={handleBooking} id="book-btn">Book Airport Transfer</Button>
+            <a href='https://lizzy5.wixsite.com/website-4' target="_blank" rel='noreferrer' id="book-btn">Book Airport Transfer</a>
 
         </div>
     </Container>
