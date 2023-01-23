@@ -398,7 +398,32 @@ const Home = () => {
                 Wedding rate offers you 20% discount</p>
 
                 <p className='activities-titles text-end'>Jasha Beauty Salon</p>
-                <p className='activities-par text-end'>We'll update the hair & makeup information as we get closer.</p>
+                <p className='activities-par text-end'>8am - 7pm April 13-15, 2023</p>
+                <p className='activities-par text-end'>
+                For your hair and makeup appointments, please contact Zalma at jwlc.zmontano@grupodiestra.com
+                or call +52-624-105-3000  Ext 2061 or 2062 Please make your appointments by April 3, 2023.
+                The Salon will do their best to accommodate last minute additions but this is not guaranteed.
+                </p>
+                {/*  price list */}
+                <ul className='list text-end type-none'>
+                    <li className='activities-par'>Blow Dry Short   <span className='ms-5'>US$49</span> </li>
+                    <li className='activities-par'>Blow Dry medium  <span className='ms-5'>US$62</span></li>
+                    <li className='activities-par'>Blow Dry long hair  <span className='ms-5'>US$71</span></li>
+                    <li className='activities-par'>Flat ironing only  <span className='ms-5'>US$53</span></li>
+                    <li className='activities-par'>Curls only <span className='ms-5'>US$53</span></li>
+                    <li className='activities-par'>Up Do <span className='ms-5'>US$113</span></li>
+                    <li className='activities-par'>Make Up <span className='ms-5'>US$116 (with or without eyelashes)</span></li>
+                    <li className='activities-par'>Eyelashes only <span className='ms-5'>US$35</span></li>
+
+                </ul>
+                <p className='activities-par text-end'>Prices above are final with a 10 % wedding rate discount applied</p>
+                <p className='activities-par text-end'>The hair services are Dry Style only and do not include shampoo. Please come for your hair service with dry hair.
+                    The services can be paid with credit card (Visa, Master card or American Express) or could be charged to your room. No payments in cash.
+                </p>
+                <p className='activities-par text-end'>
+                    The services can be paid with credit card (Visa, Master card or American Express) or could be charged to your room. No payments in cash.
+                </p>
+
             </Col>
 
             <Col sm={12} md={6} lg={3}>

@@ -25,7 +25,7 @@ const Dinner = ({status,onClose}) => {
     <>
     <Modal show={status} fullscreen={true}>
         <Modal.Header className='d-block'>
-          <Modal.Title className='title'>Welcome Dinner & Mehndi</Modal.Title>
+          <Modal.Title className='title'>Event Details</Modal.Title>
           <Button id='back-btns1' onClick={onClose}>Back</Button>
         </Modal.Header>
         <Modal.Body>
