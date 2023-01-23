@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useNavigate } from 'react'
 
 
 import '../Styling/Home.css'
@@ -93,6 +93,16 @@ const Home = () => {
     const handleShow2 = ()=>{setShow2(true)}
 
     const handleHide2 = ()=>{setShow2(false)}
+
+
+
+
+    // Airport Booking
+    const navigate = useNavigate()
+    const handleBooking = ()=> {
+        navigate("https://lizzy5.wixsite.com/website-4")
+        
+    }
    
 
   return (
@@ -526,7 +536,7 @@ const Home = () => {
             details to book your transport service directly with them.
         </p>
         <div className='d-flex justify-content-center'>
-            <Button id="book-btn">Book Airport Transfer</Button>
+            <Button onClick={handleBooking} id="book-btn">Book Airport Transfer</Button>
 
         </div>
     </Container>
