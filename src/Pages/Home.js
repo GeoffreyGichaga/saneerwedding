@@ -412,13 +412,13 @@ const Home = () => {
                     <li className='activities-par'>Flat ironing only  <span className='ms-5'>US$53</span></li>
                     <li className='activities-par'>Curls only <span className='ms-5'>US$53</span></li>
                     <li className='activities-par'>Up Do <span className='ms-5'>US$113</span></li>
-                    <li className='activities-par'>Make Up <span className='ms-5'>US$116 (with or without eyelashes)</span></li>
-                    <li className='activities-par'>Eyelashes only <span className='ms-5'>US$35</span></li>
+                    <li className='activities-par'>Make Up <span className='ms-5'>US$116</span></li>
+                    <li className='activities-par'><span className='ms-5'>(with or without eyelashes)</span></li>
+                    <li className='activities-par'>Eyelashes only <span className='ms-5 mt-3'>US$35</span></li>
 
                 </ul>
                 <p className='activities-par text-end'>Prices above are final with a 10 % wedding rate discount applied</p>
                 <p className='activities-par text-end'>The hair services are Dry Style only and do not include shampoo. Please come for your hair service with dry hair.
-                    The services can be paid with credit card (Visa, Master card or American Express) or could be charged to your room. No payments in cash.
                 </p>
                 <p className='activities-par text-end'>
                     The services can be paid with credit card (Visa, Master card or American Express) or could be charged to your room. No payments in cash.
