@@ -381,11 +381,22 @@ const Home = () => {
                 Please contact the Spa directly for your appointments at Extension #2061.<br/>
                 Wedding rate offers you 20% discount</p>
 
-                <p className='activities-titles text-end'>Jasha Beauty Salon</p>
+                
+
+            </Col>
+
+            <Col sm={12} md={6} lg={3}>
+                <img className='w-75' src={layer50} alt='pot'/>
+            </Col>
+        </Row>
+
+        <Row className='activities-section'>
+            <Col sm={12} md={6} lg={9}>
+            <p className='activities-titles text-end'>Jasha Beauty Salon</p>
                 <p className='activities-par text-end'>8am - 7pm April 13-15, 2023</p>
                 <p className='activities-par text-end'>
-                For your hair and makeup appointments, please contact Zalma at jwlc.zmontano@grupodiestra.com
-                or call +52-624-105-3000  Ext 2061 or 2062 Please make your appointments by April 3, 2023.
+                For your hair and makeup appointments, please contact Zalma at jwlc.zmontano@grupodiestra.com<br/>
+                or call +52-624-105-3000  Ext 2061 or 2062 Please make your appointments by April 3, 2023.<br/>
                 The Salon will do their best to accommodate last minute additions but this is not guaranteed.
                 </p>
                 {/*  price list */}
@@ -402,22 +413,17 @@ const Home = () => {
 
                 </ul>
                 <p className='activities-par text-end'>Prices above are final with a 10 % wedding rate discount applied</p>
-                <p className='activities-par text-end'>The hair services are Dry Style only and do not include shampoo. Please come for your hair service with dry hair.
+                <p className='activities-par text-end'>The hair services are Dry Style only and do not include shampoo. <br/>Please come for your hair service with dry hair.
                 </p>
                 <p className='activities-par text-end'>
-                    The services can be paid with credit card (Visa, Master card or American Express) or could be charged to your room. No payments in cash.
+                    The services can be paid with credit card (Visa, Master card or American Express) or could be charged to your room.<br/> No payments in cash.
                 </p>
-
-            </Col>
-
-            <Col sm={12} md={6} lg={3}>
-                <img className='w-75' src={layer50} alt='pot'/>
             </Col>
         </Row>
 
 
 
-        <Row className='activities-section ps-5'>
+        <Row className='activities-section ps-5 mt-4'>
             <Col sm={12} md={6} lg={2}>
             <img className='w-75' src={layer51} alt='rainbow'/>
             </Col>
@@ -444,7 +450,7 @@ const Home = () => {
             <h2 className='thingstodo-title text-center'>THINGS TO DO</h2>
             <p className='thingstodo-par text-center'>Check with your concierge on reliable tour companies and bookings</p>
             </div>
-            <Col sm={12} md={6} lg={3}>
+            <Col className='fishcol' sm={12} md={6} lg={3}>
                 <div className='mt-5 ms-5'>
                     <img src={layer54} alt='fish1'/>
                 </div>
@@ -471,7 +477,7 @@ const Home = () => {
 
 
             <Col className='thingstodo-col' sm={12} md={6} lg={9}>
-                <p className='thingstodo-par text-start mt-5'>Tucked away on the southern tip of Baja California, the sizzling resort city<br/>
+                <p className='thingstodo-par1 text-start mt-5'>Tucked away on the southern tip of Baja California, the sizzling resort city<br/>
                     of Cabo San Lucas is beach heaven. Plunge into the inviting blue waters<br/>
                     in search of tropical fish, or sail around the coast for secluded coves.<br/>
                     Energetic travelers love exploring the wild canyons and deserts,<br/>
