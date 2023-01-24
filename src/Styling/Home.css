@@ -38,6 +38,11 @@ font-family: 'Parisienne', cursive;
     background-image: none;
 
 }
+
+
+#nav-toggle{
+    background-color: whitesmoke;
+}
 /* Banner Section */
 
 #firstblock{
@@ -135,6 +140,35 @@ font-family: 'Parisienne', cursive;
     width: auto;
 }
 
+
+
+@media (max-width: 480px) {
+    .welcome-text{
+        color: #305376;
+        font-family: "JohnDavid";
+        font-size: 50pt;
+        font-weight: 400;
+    
+    }
+
+    .flowercol{
+        background-image: url('../Assets/Layer11.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 10rem;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
 /* Story Section  */
 .whitetext{
     color: white;
@@ -197,6 +231,29 @@ font-family: 'Parisienne', cursive;
 /* .story-row{
     margin-left: 50%;
 } */
+
+
+
+@media (max-width: 480px){
+    .story-title{
+        font-family: "JohnDavid";
+        font-weight: 800;
+        margin-left: 4%;
+        margin-top: 70%;
+        font-size: 20pt;
+    }
+
+
+    .couple2col{
+        background-image: url("../Assets/Layer42.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+    }
+
+   
+
+}
 
 
 
@@ -491,8 +548,8 @@ font-family: 'Parisienne', cursive;
     .row1{
   
         /* position: relative; */
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
         
 
 

@@ -22,9 +22,7 @@ import layer45 from '../Assets/Layer45.png'
 
 
 
-import layer30 from '../Assets/Layer30.png'
-import layer291 from '../Assets/Layer291.png'
-import layer29 from '../Assets/Layer29.png'
+
 
 
 
@@ -55,8 +53,7 @@ import couplep from '../Assets/couplep.png'
 
 import glasses from '../Assets/glasses.png'
 import Dinner from '../Components/Dinner'
-import Party from '../Components/Party'
-import Reception from '../Components/Reception'
+
 
 
 
@@ -79,24 +76,6 @@ const Home = () => {
     const handleHide = ()=>{setShow(false)}
 
 
-    const [show1,setShow1] = useState(false)
-
-
-    const handleShow1 = ()=>{setShow1(true)}
-
-    const handleHide1 = ()=>{setShow1(false)}
-
-
-
-    const [show2,setShow2] = useState(false)
-
-
-    const handleShow2 = ()=>{setShow2(true)}
-
-    const handleHide2 = ()=>{setShow2(false)}
-
-
-
 
    
    
@@ -106,7 +85,7 @@ const Home = () => {
     {/* Navbar */}
     <Navbar collapseOnSelect expand="lg"  bg="dark">
       <Container fluid >
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle id='nav-toggle' aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
 
           <Nav  className='nav-items mx-auto'>
@@ -194,7 +173,12 @@ const Home = () => {
     <div id='story-title'></div>
     {/* Our Story Section  */}
     <Container id='story-view' fluid className='story2'>
-        <h1 className='story-title'>Our Story</h1>
+        <Row>
+            <Col sm={12} md={12} lg={12}>
+            <p className='story-title'>Our Story</p>
+            </Col>
+
+        </Row>
         <Row className='story-row p-5'>
             <Col className='mb-sm-5 ' xs={12} sm={12} md={6} lg={12}>
                 <p className='storyline mt-2'>Neil saw Sareena for the first time at her 1st birthday party <br/>
