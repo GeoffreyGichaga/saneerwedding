@@ -146,7 +146,7 @@ const Home = () => {
         <h2 id='Welcome-view' className='welcome-text p-5 text-center'>Welcome</h2>
         <Row>
             <Col sm={12} md={12} lg={3} className='flowercol'>
-                <img src={layer9} alt='flower'/>
+                <img className='bird-pic' src={layer9} alt='bird'/>
 
             </Col>
 
@@ -261,7 +261,7 @@ const Home = () => {
             </Col>
 
             <Col sm={12} md={6} lg={5} className='couple3 d-flex justify-content-end'>
-                <img className='couple3pic h-75' src={layer45} alt='couple3'/>
+                <img className='couple3pic h-75 ms-3' src={layer45} alt='couple3'/>
             </Col>
 
 
@@ -431,7 +431,7 @@ const Home = () => {
                 Baby Sitting service.
                 
             </p>
-            <p className='activities-par text-start'>All Events are for Invites Only</p>
+            <p className='activities-par text-start'>All Events are for Invitees Only</p>
             </Col>
         </Row>
 

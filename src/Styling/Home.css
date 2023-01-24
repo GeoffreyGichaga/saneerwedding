@@ -79,6 +79,18 @@ font-family: 'Parisienne', cursive;
 }
 
 
+@media (max-width: 480px) {
+    #firstblock{
+        background-size: cover;
+        background-position: center;
+    }
+    .couplepic{
+        width: 50%;
+        height: auto;
+    }
+    
+}
+
 /* .behind-logo {
     background-image: url("../Assets/Layer3.png");
     background-repeat: no-repeat;
@@ -106,7 +118,7 @@ font-family: 'Parisienne', cursive;
 
 }
 
-.welcome-par {
+.welcome-par{
     font-size: 18pt;
     color: #305376;
     font-family: "Butler-m";
@@ -156,6 +168,12 @@ font-family: 'Parisienne', cursive;
         background-repeat: no-repeat;
         background-size: contain;
         height: 10rem;
+    }
+    .bird-pic{
+        margin-left: -80%;
+        margin-top: -8%;
+        width: 9%;
+        height: auto;
     }
 
     
@@ -250,8 +268,10 @@ font-family: 'Parisienne', cursive;
         background-repeat: no-repeat;
         background-size: contain;
         background-position: left;
+        background-size: 0%;
     }
 
+    
    
 
 }
