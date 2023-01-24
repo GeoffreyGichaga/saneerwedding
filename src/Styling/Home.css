@@ -566,9 +566,9 @@ font-family: 'Parisienne', cursive;
 @media (max-width: 480px) {
     .login{
         background-image: url("../Assets/passwordback.png");
-        background-repeat: repeat-y;
+        /* background-repeat: repeat-y; */
         background-size: 43rem;
-        background-position-y: 0%;
+        /* background-position-y: 0%; */
         background-position-x: 50%;
         /* content: ""; */
         /* top: 0;
