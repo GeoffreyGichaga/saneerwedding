@@ -48,7 +48,7 @@ const Dinner = ({status,onClose}) => {
           </div> 
 
           <div className='d-flex justify-content-center'>
-            <img className='dubai ms-5' src={dubai} alt='dinner'/>
+            <img className='dubai ms-sm-5 ms-lg-5' src={dubai} alt='dinner'/>
           </div>
 
           {/* Reception */}
