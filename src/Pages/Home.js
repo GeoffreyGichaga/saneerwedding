@@ -175,7 +175,7 @@ const Home = () => {
     <Container id='story-view' fluid className='story2'>
         <Row>
             <Col sm={12} md={12} lg={12}>
-            <p className='story-title'>Our Story</p>
+            <h2 className='story-title'>Our Story</h2>
             </Col>
 
         </Row>
