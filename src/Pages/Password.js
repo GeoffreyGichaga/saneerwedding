@@ -9,6 +9,10 @@ import Alert from 'react-bootstrap/Alert'
 import PasswordAlert from '../Components/PasswordAlert';
 import Button from 'react-bootstrap/Button'
 
+import plane from '../Assets/plane.png'
+
+
+
 
 const Password = () => {
     const navigate = useNavigate()
@@ -36,8 +40,19 @@ const Password = () => {
    
   return (
     <Container fluid className='login'>
-        <Row className='row1 mt-5 ms-5'>
-            <PasswordAlert status={showAlert}/>
+        <PasswordAlert status={showAlert}/>
+
+        <Row className='mt-5'>
+            <Col className='mt-5'>
+                <h1 className='password-title mt-5'>Get ready to <span className='take-off '> take off</span> for </h1>
+            </Col>
+        </Row>
+        <Row>
+            <Col>
+                <h1 className='password-name mt-5'>NEIL & SAREENA </h1>
+            </Col>
+        </Row>
+        <Row className='row1 mt-5 ms-5 d-flex justify-content-center'>
             <Col className='col1' sm={12} md={6} lg={3}>
                 <Form className='form1 mt-4'>
                     {/* <Form.Group className="mb-3 pt-3" controlId="formBasicPassword">
@@ -61,6 +76,12 @@ const Password = () => {
                     </Button>
                 </Form>
 
+            </Col>
+        </Row>
+
+        <Row>
+            <Col className='d-flex justify-content-end' lg={10}>
+                    <img className='plane' src={plane} alt='plane'/>
             </Col>
         </Row>
     </Container>

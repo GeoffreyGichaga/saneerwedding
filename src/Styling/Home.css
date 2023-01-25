@@ -503,9 +503,8 @@ font-family: 'Parisienne', cursive;
 
 }
 .question{
-    color: #305376;
-    font-family: "Butler-m";
-    font-size: 14pt;
+    
+    
 
 
 
@@ -522,29 +521,51 @@ font-family: 'Parisienne', cursive;
 
 /* Passwordm page */
 
+.take-off {
+    font-family: "JohnDavid";
+    font-weight: bolder;
+    font-size: 54pt;
+
+
+}
+
+.password-title {
+    color: #305376;
+    font-family: "Butler-m";
+    font-size: 30pt;
+
+}
+
+.password-name{
+    color: #305376;
+    font-family: "Butler-m";
+    font-size: 25pt;
+
+}
+
 .login{
-    background-image: url("../Assets/passwordback.png");
+    background-image: url("../Assets/passwordback.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    content: "";
+    /* content: "";
     top: 0;
     left: 0;
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     position: absolute;
 }
 
 .row1{
   
-    position: relative;
+    /* position: relative; */
 }
 
 
 
 .col1{
-    position: absolute;
+    /* position: absolute;
     top: 25rem;
-    left: 30rem;
+    left: 30rem; */
 
 
 }
@@ -563,13 +584,19 @@ font-family: 'Parisienne', cursive;
     border: none;
 }
 
+
+
+
+
+/* Responsiveness */
+
 @media (max-width: 480px) {
     .login{
-        background-image: url("../Assets/passwordback.png");
+        /* background-image: url("../Assets/passwordback.png"); */
         /* background-repeat: repeat-y; */
-        background-size: 43rem;
+        /* background-size: 43rem; */
         /* background-position-y: 0%; */
-        background-position-x: 50%;
+        /* background-position-x: 50%; */
         /* content: ""; */
         /* top: 0;
         left: 0; */
@@ -593,12 +620,41 @@ font-family: 'Parisienne', cursive;
         /* position: absolute;
         top: 25rem;
         left: 30rem; */
-        margin-left: -500px;
-        margin-top: -500px;
+        /* margin-left: -500px;
+        margin-top: -500px; */
 
         
     
     
     }
+
     
+
+    .plane{
+        margin-top: 15%;
+    }
+
+
+
+    .take-off {
+        font-family: "JohnDavid";
+        font-weight: bolder;
+        font-size: 35pt;
+    
+    
+    }
+    
+    .password-title {
+        color: #305376;
+        font-family: "Butler-m";
+        font-size: 20pt;
+    
+    }
+    
+    .password-name{
+        color: #305376;
+        font-family: "Butler-m";
+        font-size: 20pt;
+    
+    }
 }
