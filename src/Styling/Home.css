@@ -88,6 +88,25 @@ font-family: 'Parisienne', cursive;
         width: 50%;
         height: auto;
     }
+
+
+    .logo{
+        width: 55%;
+        height: auto;
+    }
+
+    .couple-names {
+        font-family: 'Rowdies', cursive;    
+        font-weight: bold;
+        color: #3493ab;
+    
+    }
+
+    .wed-date {
+        font-family: "Butler";
+        font-weight: bold;
+        font-size: 14pt;
+    }
     
 }
 
@@ -639,7 +658,7 @@ font-family: 'Parisienne', cursive;
     .take-off {
         font-family: "JohnDavid";
         font-weight: bolder;
-        font-size: 35pt;
+        font-size: 32pt;
     
     
     }
