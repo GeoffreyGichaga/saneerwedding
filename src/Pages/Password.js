@@ -52,7 +52,7 @@ const Password = () => {
                 <h1 className='password-name mt-5'>NEIL & SAREENA </h1>
             </Col>
         </Row>
-        <Row className='row1 mt-5 ms-5 d-flex justify-content-center'>
+        <Row className='row1 mt-5  d-flex justify-content-center'>
             <Col className='col1' sm={12} md={6} lg={3}>
                 <Form className='form1 mt-4'>
                     {/* <Form.Group className="mb-3 pt-3" controlId="formBasicPassword">
