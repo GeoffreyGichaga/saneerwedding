@@ -495,7 +495,8 @@ font-family: 'Parisienne', cursive;
 .transport-title{
     color: #305376;
     font-family: "JohnDavid";
-    font-weight: 800;
+    font-weight: 900;
+    font-size: 34pt;
 
 
 
@@ -517,16 +518,26 @@ font-family: 'Parisienne', cursive;
 .questions{
     color: #305376;
     font-family: "JohnDavid";
-    font-weight: 800;
+    font-weight: 900;
+    font-size: 34pt;
+
 
 
 }
+
 .question{
-    
-    
+    color: #305376;
+    font-family: "Butler-m";
+
+}
 
 
-
+@media (max-width: 486px){
+    .contacts{
+        text-align: start;
+        font-size: 12pt;
+        margin-bottom: 10px;
+    }
 }
 
 
@@ -564,7 +575,7 @@ font-family: 'Parisienne', cursive;
 
 .login{
     background-image: url("../Assets/passwordback.jpeg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     /* content: "";
     top: 0;

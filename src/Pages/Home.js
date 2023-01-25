@@ -96,11 +96,11 @@ const Home = () => {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link id='nav-items2' className='navlinks ms-5' href="#story-title">Our Story</Nav.Link>
+              <Nav.Link id='nav-items2' className='navlinks' href="#story-title">Our Story</Nav.Link>
 
             </Nav.Item>            
             <Nav.Item>
-              <Nav.Link id='nav-items3' className='navlinks ms-5' href="#event">Event Details</Nav.Link>
+              <Nav.Link id='nav-items3' className='navlinks' href="#event">Event Details</Nav.Link>
 
             </Nav.Item>  
         
@@ -108,17 +108,17 @@ const Home = () => {
 
           <Nav className='mx-auto'>
             <Nav.Item>
-                <Nav.Link id='nav-items4' className='navlinks ms-5' href="#explore-view">Explore</Nav.Link>
+                <Nav.Link id='nav-items4' className='navlinks' href="#explore-view">Explore</Nav.Link>
 
               </Nav.Item>            
               
               <Nav.Item>
-                <Nav.Link id='nav-items5' className='navlinks ms-5' href="#transport-view">Transport</Nav.Link>
+                <Nav.Link id='nav-items5' className='navlinks' href="#transport-view">Transport</Nav.Link>
 
               </Nav.Item>           
               
               <Nav.Item>
-                <Nav.Link id='nav-items6' className='navlinks ms-5' href="#question-view">Questions</Nav.Link>
+                <Nav.Link id='nav-items6' className='navlinks' href="#question-view">Questions</Nav.Link>
 
               </Nav.Item>  
           </Nav>
@@ -186,9 +186,10 @@ const Home = () => {
                     that one day she was going to be his wife.<br/>
                     And the rest is history.
                 </p>
+                <p className='storyline mt-2'><i>False.<span className='whitetext'>h</span>That would be weird.</i></p>
+
             </Col>
         </Row>
-        <p className='storyline mt-3'><i>False.<span className='whitetext'>h</span>That would be weird.</i></p>
 
         <Row className='couple2col'>
             <Col  sm={12} md={6} lg={3}>
@@ -563,11 +564,16 @@ const Home = () => {
     <div id='question-view'></div>
     <Container className='question mt-5'>
         <h1 className='questions text-center mt-5'>Any Questions</h1>
-        <p className='text-center mt-4'> Please contact the families or our event planner at the emails below:</p>
-        <p className='text-center'>Sakhrani Family - NeilandSareena@gmail.com<br/>
-            Hunt Family - SareenaandNeil@gmail.com<br/>
-            Vaishali Deshpande - events@vaishalideshpande.com
-        </p>
+        <Row>
+        <p className='contacts text-center mt-4'> Please contact the families or our event planner at the emails below:</p>
+
+            <Col className='d-flex justify-content-center'>
+            <p className='contacts text-center'>Sakhrani Family - NeilandSareena@gmail.com<br/>
+                Hunt Family - SareenaandNeil@gmail.com<br/>
+                Vaishali Deshpande - events@vaishalideshpande.com
+            </p>
+        </Col>
+        </Row>
 
 
     </Container>

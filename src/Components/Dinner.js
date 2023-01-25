@@ -30,7 +30,7 @@ const Dinner = ({status,onClose}) => {
         </Modal.Header>
         <Modal.Body>
             <div className='d-flex justify-content-center'>
-              <img className='w-75' src={dinner} alt='dinner'/>
+              <img className='sunset' src={dinner} alt='dinner'/>
               {/* <img className='w-75' src={hollywood} alt='dinner'/> */}
             </div>
 
