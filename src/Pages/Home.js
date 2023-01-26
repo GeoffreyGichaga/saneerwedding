@@ -193,7 +193,7 @@ const Home = () => {
 
         <Row className='couple2col'>
             <Col  sm={12} md={6} lg={3}>
-                <img className='w-50' src={layer36} alt='couple'/>
+                <img className='couplepic4' src={layer36} alt='couple'/>
             </Col>
             <Col sm={12} md={6} lg={6}>
                 <p className='longstory'>

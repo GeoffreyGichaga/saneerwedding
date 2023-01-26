@@ -275,7 +275,10 @@ font-family: 'Parisienne', cursive;
 /* .story-row{
     margin-left: 50%;
 } */
-
+.couplepic4{
+    width: 50%;
+    height: auto;
+}
 
 
 @media (max-width: 480px){
@@ -294,7 +297,10 @@ font-family: 'Parisienne', cursive;
         background-position: left;
         background-size: 0%;
     }
-
+   .couplepic4{
+        width: 35%;
+        height: auto;
+   }
     
    
 
