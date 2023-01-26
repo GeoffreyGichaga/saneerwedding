@@ -357,7 +357,7 @@ const Home = () => {
 
         <Row className='activities-section ps-5'>
             <Col sm={12} md={6} lg={2}>
-                <img className='w-100' src={layer48} alt='grass'/>
+                <img className='grasspic' src={layer48} alt='grass'/>
             </Col>
 
 
@@ -387,7 +387,7 @@ const Home = () => {
             </Col>
 
             <Col sm={12} md={6} lg={3}>
-                <img className='w-75' src={layer50} alt='pot'/>
+                <img className='makeup' src={layer50} alt='pot'/>
             </Col>
         </Row>
 

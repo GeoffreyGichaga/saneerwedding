@@ -67,6 +67,8 @@ font-family: 'Parisienne', cursive;
 .couple-names {
     font-family: 'Rowdies', cursive;    
     font-weight: bold;
+    color: #020086;
+
 
 }
 .hashtag{
@@ -98,7 +100,7 @@ font-family: 'Parisienne', cursive;
     .couple-names {
         font-family: 'Rowdies', cursive;    
         font-weight: bold;
-        color: #3493ab;
+        color: #020086;
     
     }
 
@@ -186,13 +188,16 @@ font-family: 'Parisienne', cursive;
         background-image: url('../Assets/Layer11.png');
         background-repeat: no-repeat;
         background-size: contain;
-        height: 10rem;
+        height: 19rem;
     }
     .bird-pic{
         margin-left: -80%;
         margin-top: -8%;
         width: 9%;
         height: auto;
+    }
+    .welcome-par{
+        font-size: 19pt;
     }
 
     
@@ -276,9 +281,9 @@ font-family: 'Parisienne', cursive;
 @media (max-width: 480px){
     .story-title{
         font-family: "JohnDavid";
-        font-weight: 800;
+        font-weight: 900;
         margin-left: 4%;
-        margin-top: 70%;
+        margin-top: 110%;
     }
 
 
@@ -411,8 +416,35 @@ font-family: 'Parisienne', cursive;
 
 }
 
+.grasspic{
+    width: 100%;
+    height: auto;
+
+}
+
+.makeup{
+    width: 100%;
+    height: auto;
+
+}
 
 
+@media (max-width: 480px){
+    .grasspic{
+        width: 65%;
+        height: auto;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+
+    .makeup{
+        width: 60%;
+        height: auto;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+
+}
 
 
 
